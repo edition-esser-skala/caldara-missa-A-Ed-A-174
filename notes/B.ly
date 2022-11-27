@@ -5,9 +5,202 @@ KyrieBasso = {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoKyrie
     \mvTr c8\fE^\tutti c' c h c c, r4
+    c8 c' c h c c, r4
+    r2 r4 r8 c
+    f4~ f8[ d16. f32] g4~ g8[ e16. g32]
+    a4~ a8[ f16. a32] h4~ h8[ g16. h32] %5
+    c8 c, e([ g)] c h c([ h16. a32)]
+    g8 g, h([ d)] g fis g([ fis16. e32)]
+    d4 r r2
+    r4 d d2~
+    d g8[ e c d] %10
+    g,4 r r2
+    r8 c c([ h)] c e16.([ c32)] g'8[ h16. g32]
+    d8[ f16. d32] a'8[ c16. a32] e8[ g16. e32] a8[ h16. a32]
+    gis8 a d,([ e)] a,4 r
+    r r8 a' d,[ f16. e32] d16.[ e32 f16. g32] %15
+    a8[ g16. f32] e16.[ d32 e16. f32] g8 e d([ g,)]
+    c4 r r8 c c([ h)]
+    c4 r r r8 c
+    f4~ f8[ d16. f32] g4~ g8[ e16. g32]
+    a4~ a8[ f16. a32] h4~ h8[ g16. h32] %20
+    c8 a f([ g)] c,4 r
+    c8 c' c h c([ a f g)]
+    c,4 r r2
+    R1
+    r2 \mvTr e4\pE^\solo fis %25
+    r8 g fis([ e)] fis h, h'[ a]
+    g[ fis16. g32] e8[ fis16. gis32] a4 r
+    r r8 a f[ d] b'4~
+    b8[ a16. g32] a4~ a8[ g16. f32] g4~
+    g8[ f16. e32] f4 f8 e f([ g)] %30
+    c,4 r r2
+    R1
+    r2 c4 d
+    r8 e d[ c] d[ g,] g'4~
+    g8[ f16. e32] f8[ e16. d32] e4~ e16.[ d32 e16. f32] %35
+    d4 r r8 g f!16.([ e32 f16. g32)]
+    e4 r r2
+    R1*2
+    r8 c f4~ f8[ d16. f32] g4~ %40
+    g8[ e16. g32] a4~ a8[ f16. a32] b4~
+    b8[ g16. b32] c8[ b] a4 r
+    r r8 a h4 c8[ h]
+    a4. h16.[ a32] gis8[ a16. g32] f4
+    e r r2 %45
+    R1
+    r8 f! e d e[ a, a' g]
+    f[ e] d[ d'16. c!32] h8[ c16. h32] a8[ h16. a32]
+    gis8 a d,([ e)] a,4 r
+    r8 c' h4 h8 e, a dis, %50
+    e2 a,4 r
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoKyrieB r4 \mvTr d2\fE^\tutti d4 \noBreak %55
+    d2 r4 d
+    h2 c4 e
+    d2 c4 e8([ c)]
+    g'1 \noBreak
+    g\fermata \bar "||" %60
+    \tempoKyrieC \mvTr g8.\fE^\tutti g16 g8 g c,[ d e f] \noBreak
+    g4. e8 a4. f8
+    d16[ e f d] g8[ f] e[ d] c4
+    r g' fis8[ d] g4~
+    g8[ e] a4. fis8 d16[ e fis d] %65
+    g4. f8 e[ d] c4
+    r8 c e[ c] f4. d8
+    g8.[ f16] e8[ d] c[ d e fis]
+    g2 r
+    R1 %70
+    g8. g16 g8 g c,[ d e f]
+    g4. e8 a4. f8
+    d16[ e f d] g8[ f] e[ d] c[ d16 e]
+    f4 r8 f e[ c] f4~
+    f8[ d] g4. e8 c16[ d e c] %75
+    f8[ e d c] h!16[ d e f] g8[ f]
+    e[ d] c4 r8 g'([ e c8])
+    f4. d8 h[ a] g16[ a h g]
+    c8[ h a dis] e2
+    f4 r8 f e[ gis] a4~ %80
+    a8[ f] d16[ e f d] g4 r
+    R1
+    r2 a8. a16 a8 a
+    e[ fis g a] h4. g8
+    c4. a8 fis16[ d! e fis] g8[ fis16 e] %85
+    d2 g,4 r8 g'
+    fis[ d] g4. e8 a4~
+    a8[ fis] d16[ e fis d] g4. f8
+    e[ d] c4 r8 g' e[ c]
+    f4. d8 g[ f e d] %90
+    c4. b8 a[ g] f4
+    r f'4. d8 g4~
+    g8 e c16[ d e c] f8[ e] d16[ e f d]
+    g8[ f] e16[ f g e] a8[ g] f16[ g a f]
+    b8[ a] g16[ a h g] c4 r %95
+    g8. g16 g8 g c,[ d e f]
+    g4. e8 a4. f8
+    d16[ e f d] g8[ f] e[ d] c16[ d e f]
+    g8 c, g4 c8 c' g4
+    c, r r2\fermata \bar "|." %100 finis
   }
 }
 
 KyrieBassoLyrics = \lyricmode {
+  Ky -- ri -- e e -- lei -- son,
+  Ky -- ri -- e e -- lei -- son,
+  e --
+  lei -- _
+  _ _ %5
+  son, e -- lei -- son, e -- lei --
+  son, e -- lei -- son, e -- lei --
+  son,
+  e -- lei --
+  _ %10
+  son,
+  e -- lei -- son, e -- lei --
+  _ _ _ _
+  son, e -- lei -- son,
+  e -- lei -- _ %15
+  _ _ son, e -- lei --
+  son, e -- lei --
+  son, e --
+  lei -- _
+  _ _ %20
+  son, e -- lei -- son,
+  Ky -- ri -- e e -- lei --
+  son.
 
+  Chri -- ste %25
+  e -- lei -- son, e -- lei --
+  _ _ son,
+  e -- lei -- _
+  _ _
+  _ son, e -- lei -- %30
+  son.
+
+  Chri -- ste
+  e -- lei -- _ _
+  _ _ %35
+  son, e -- lei --
+  son,
+
+  e -- lei -- _ %40
+  _ _
+  _ son,
+  e -- lei -- _
+  _ _ _ _
+  son, %45
+
+  Chri -- ste e -- lei --
+  _ _ _ _
+  son, e -- lei -- son,
+  e -- lei -- son, Chri -- ste e -- %50
+  lei -- son.
+
+  Ky -- ri -- %55
+  e e --
+  lei -- son, e --
+  lei -- son, e --
+  lei --
+  son. %60
+  Ky -- ri -- e e -- lei --
+  _ _ _ _
+  _ _ _ son,
+  e -- lei -- _
+  _ _ _ %65
+  _ _ _ son,
+  e -- lei -- _ _
+  _ _ _
+  son,
+  %70
+  Ky -- ri -- e e -- lei --
+  _ _ _ _
+  _ _ _ _
+  son, e -- lei -- _
+  _ _ _ %75
+  _ _ _
+  _ son, e --
+  lei -- _ _ _
+  _ _
+  son, e -- lei -- _ %80
+  _ son,
+
+  Ky -- ri -- e e --
+  lei -- _ _
+  _ _ _ _ %85
+  _ son, e --
+  lei -- _ _ _
+  _ _ _
+  _ son, e -- lei --
+  _ _ _ %90
+  _ _ _ son,
+  Ky -- ri -- e __
+  e -- lei -- _ _
+  _ _ _ _
+  _ _ son, %95
+  Ky -- ri -- e e -- lei --
+  _ _ _ _
+  _ _  _ _
+  son, e -- lei -- son, e -- lei --
+  son. %100 finis
 }

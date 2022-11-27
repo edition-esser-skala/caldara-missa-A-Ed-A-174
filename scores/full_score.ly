@@ -8,7 +8,7 @@
     \section "1" "Kyrie"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { 
       <<
         \new StaffGroup <<
           \new Staff <<
@@ -67,8 +67,8 @@
         >>
         \new FiguredBass { \KyrieBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 90 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
