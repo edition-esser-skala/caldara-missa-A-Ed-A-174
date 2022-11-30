@@ -142,3 +142,62 @@ KyrieTenoreLyrics = \lyricmode {
   son, e -- lei -- son, e -- lei --
   son. %100 finis
 }
+
+GloriaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/4 \autoBeamOff \tempoGloria
+    R2.*20 %20
+    \mvDl e8\fE^\tutti e16 e e8 e d d
+    e4 e r
+    e8 e16 e e8 e d d
+    e d c d c c
+    d4 r r %25
+    R2.*3
+    \mvTr d8\fE^\tuttiE d16 d d8 d e d
+    d d d d d h %30
+    c4 r r
+    r c8 c c c
+    c4 r r
+    r d8 d d d
+    d4 r r %35
+    r h8 h h a16([ h)]
+    c4 r r
+    e8 c c d d d
+    e e16 e c4. d8
+    c c c4( h) %40
+    c r r
+    R2.
+    c8[ h16 a] g8[ f e d]
+    c[ \once \tieDashed e~ e g]~ g a16 h
+    c8 c c c c([ h)] %45
+    c2.\fermata \bar "||" %46 finis
+  }
+}
+
+GloriaTenoreLyrics = \lyricmode {
+  Glo -- ri -- a in ex -- cel -- sis %21
+  De -- o,
+  glo -- ri -- a in ex -- cel -- sis
+  De -- o, et in ter -- ra
+  pax, %25
+
+  glo -- ri -- a in ex -- cel -- sis %29
+  De -- o, et in ter -- ra %30
+  pax,
+  et in ter -- ra
+  pax,
+  et in ter -- ra
+  pax, %35
+  et in ter -- ra
+  pax,
+  et in ter -- ra pax ho --
+  mi -- ni -- bus bo -- nae
+  vo -- lun -- ta -- %40
+  tis.
+
+  Glo -- _
+  _ ri -- a
+  in ex -- cel -- sis De -- %45
+  o. %46 finis
+}

@@ -142,3 +142,66 @@ KyrieAltoLyrics = \lyricmode {
   son, e -- lei -- son, e -- lei --
   son. %100 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoGloria
+    R2.*20 %20
+    \mvDl g'8\fE^\tuttiE g16 g g8 g a g
+    g4 g r
+    g8 g16 g g8 g a g
+    g g g g g a
+    h4 r r %25
+    R2.
+    \mvTr g16[\pE^\solo fis g a] h8[ g a fis]
+    g16[ fis g a] h8[ g a fis]
+    \mvTr g\fE^\tutti g16 g g8 g g fis
+    g g g g g g %30
+    g4 r r
+    r g8 g g g
+    a4 r r
+    r fis8 fis fis fis
+    g4 r r %35
+    r g8 g g g
+    g4 r r
+    g8 g a a g g
+    g g16 g g4. g8
+    g a a4( g) %40
+    g r r
+    R2.
+    c8[ h16 a] g8[ f e d]
+    \tieDashed c[ e~ e g]~ g a16 h \tieSolid
+    c8 g g a^\critnote a([ g)] %45
+    g2.\fermata \bar "||" %46 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Glo -- ri -- a in ex -- cel -- sis %21
+  De -- o,
+  glo -- ri -- a in ex -- cel -- sis
+  De -- o, et in ter -- ra
+  pax, %25
+
+  glo -- _
+  _ _
+  (glo) -- ri -- a in ex -- cel -- sis
+  De -- o, et in ter -- ra %30
+  pax,
+  et in ter -- ra
+  pax,
+  et in ter -- ra
+  pax, %35
+  et in ter -- ra
+  pax,
+  et in ter -- ra pax ho --
+  mi -- ni -- bus bo -- nae
+  vo -- lun -- ta -- %40
+  tis.
+
+  Glo -- _
+  _ ri -- a
+  in ex -- cel -- sis De -- %45
+  o. %46 finis
+}

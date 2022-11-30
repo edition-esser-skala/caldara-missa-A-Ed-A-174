@@ -222,3 +222,99 @@ KyrieBassFigures = \figuremode {
   r4 <4>8 <3> r4 <4>8 <3>
   r1 %100 finis
 }
+
+GloriaOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoGloria
+    \mvTr c4\fE-\soloE r8 e f g
+    c,4 r8 e f g
+    c,4 c' a
+    g g g
+    g g g %5
+    g g g
+    c, c' g
+    c,8 d e d e c
+    f4 f d
+    c8 f e d c h %10
+    c4 r f8 g
+    a g16 f e8 d c h
+    c4 f8 e16 f g8 g,
+    \tieDashed c[ e~ e g]~ g a16 h \tieSolid
+    c4 r r %15
+    R2.*3
+    c8\fE h16 a g8 f e d
+    \tieDashed c[ e~ e g]~ g a16 h \tieSolid %20
+    c4-\tutti r8 e, f g
+    c,4 r8 a' f g
+    c,4 r8 e f g
+    c, g' c h c a
+    g fis16 e d8 c h a %25
+    g4 r r
+    R2.*2
+    g'4\fE r8 h, c d
+    g, g' g f! e d %30
+    c4 r8 a'-\solo f g
+    c,4 c'8-\tutti b a g
+    f4 r8 d-\solo b c
+    f4 d'8-\tutti c h! a
+    g4 r8 e-\solo c d %35
+    g, g' g-\tutti f! e d
+    c4 r8 a'-\solo f g
+    c,-\tutti e f d g f
+    e c c'4. h8
+    c a f4 g %40
+    c, r r
+    R2.
+    c'8-! h16-! a-! g8-! f-! e-! d-!
+    \tieDashed c[-! e-!~ e-! g]-!~ g-! a16-! h-! \tieSolid
+    c8 c e, a f g %45
+    c,2.\fermata \bar "||" %46 finis
+  }
+}
+
+GloriaBassFigures = \figuremode {
+  r2 \bo <[6 5]>4
+  r2 \bc q4
+  r2 <6\\>4
+  r2.
+  <6 4> %5
+  <5 3>
+  r
+  r
+  r
+  r8 \bo <[3 \l]> <3> q q q %10
+  r2.
+  q8 q16 q q8 q q q
+  r2 <6 4>8 \bc <[5 3]>
+  r2.
+  r %15
+  r2.*3
+  r2.
+  r %20
+  r2 <6 5>4
+  r2 q4
+  r2 q4
+  r4. <[6]>4 <6\\>8
+  r2. %25
+  r
+  r2.*2
+  r2 <6 5>8 <_+>
+  r2. %30
+  r2 <[6 5]>4
+  r2.
+  r2 <[6] 5>4
+  r <_+>2
+  r <6 5>8 <_+> %35
+  r2.
+  r2 <[6 5]>4
+  r2.
+  \bo <[6]>2 r8 \bc q
+  r4 <6 5>2 %40
+  r2.
+  r
+  r
+  r
+  r2 <6 5>4 %45
+  r2. %46 finis
+}

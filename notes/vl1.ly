@@ -94,3 +94,56 @@ KyrieViolinoI = {
     c4 r r2\fermata \bar "|." %100 finis
   }
 }
+
+GloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoGloria
+    c'16\fE h c d e8 c d h
+    c16 h c d e8 c d h
+    c16 h c d e d c h c d e fis
+    g8 d h g g, g''
+    g e c g g, g'' %5
+    g d h g g, g''
+    e4 r r
+    c16 c' c, c' c, c' c, c' c, c' c, c'
+    a g f g a g f g a g a h
+    c8 h16 a g8 f e d %10
+    e( g) f( a) a,16 c h d
+    c8 h16 a g8 f e d
+    c16 f e d c a' g f e8 d
+    c e4 g a16 h
+    c4 r8 e,\p f g %15
+    c,4 r8 c' f, g
+    c,4 r8 c' f, g
+    c,4 r r
+    c'8\f h16 a g8 f e d
+    c e4 g a16 h %20
+    c h c d e8 c d h
+    c16 h c d e8 c d h
+    c16 h c d e8 c d h
+    c d e d c16 d e fis
+    g8 fis16 e d8 c h a %25
+    g16 fis\p g a h8 g a fis
+    g16 a h c d8 h c a
+    h16 a h c d8 h c a
+    h\f g'16 a h8 g a fis
+    g16 fis g a h8 h h a16 h %30
+    c4 r r
+    r e,8 e e d16 e
+    f e f g a8 f g e
+    f4 fis8 fis fis e16 fis
+    g fis g a h8 g a fis %35
+    g4 h8 h h a16 h
+    c h c d e8 c d h
+    c[ g a d] h a16 h
+    c8 g16 f e8 g16 f e8 d
+    e d16 c c8 c h h %40
+    c16 h c d e8 c d h
+    c4 r8 c f, g
+    c h16 a g8 f e d
+    c e4 g a16 h
+    c h c d e8 c d h %45
+    c2.\fermata \bar "||" %46 finis
+  }
+}

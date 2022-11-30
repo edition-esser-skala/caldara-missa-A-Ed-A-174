@@ -204,3 +204,62 @@ KyrieBassoLyrics = \lyricmode {
   son, e -- lei -- son, e -- lei --
   son. %100 finis
 }
+
+GloriaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoGloria
+    R2.*20 %20
+    \mvDl c'8\fE^\tutti c16 c c8 e, f g
+    c,4 c r
+    c'8 c16 c c8 e, f g
+    c, g' c h c a
+    g4 r r %25
+    R2.*3
+    \mvTr g8\fE^\tuttiE g16 g g8 h, c d
+    g, g g' f! e d %30
+    c4 r r
+    r c'8 b a g
+    f4 r r
+    r d'8 c h! a
+    g4 r r %35
+    r g8 f! e d
+    c4 r r
+    c8 e f d g f
+    e c16 c c'4. h8
+    c a f4( g) %40
+    c, r r
+    R2.
+    c'8[ h16 a] g8[ f e d]
+    c[ e~ e \once \tieDashed g]~ g a16 h
+    c8 c e, a f([ g)] %45
+    c,2.\fermata \bar "||" %46 finis
+  }
+}
+
+GloriaBassoLyrics = \lyricmode {
+  Glo -- ri -- a in ex -- cel -- sis %21
+  De -- o,
+  glo -- ri -- a in ex -- cel -- sis
+  De -- o, et in ter -- ra
+  pax, %25
+
+  glo -- ri -- a in ex -- cel -- sis %29
+  De -- o, et in ter -- ra %30
+  pax,
+  et in ter -- ra
+  pax,
+  et in ter -- ra
+  pax, %35
+  et in ter -- ra
+  pax,
+  et in ter -- ra pax ho --
+  mi -- ni -- bus bo -- nae
+  vo -- lun -- ta -- %40
+  tis.
+
+  Glo -- _
+  _ ri -- a
+  in ex -- cel -- sis De -- %45
+  o. %46 finis
+}
