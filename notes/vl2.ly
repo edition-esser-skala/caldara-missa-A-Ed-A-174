@@ -149,3 +149,36 @@ GloriaViolinoII = {
     c2.\fermata \bar "||" %46 finis
   }
 }
+
+LaudamusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoLaudamus
+      \set Score.currentBarNumber = #47
+      r8 d'\fE h g a h16 c d c h a
+    h g h d g8 g g \tuplet 6/4 8 { a,32( h cis d e fis) } g8 g
+    fis16 a cis, d e a h, cis \tuplet 3/2 8 { \sbOn d cis d fis e d \sbOff } a g' fis e
+    fis a cis, d e a h, cis d8 d, r d' %50
+    r4 r8 d \tuplet 3/2 8 { \sbOn d16 e d c d h \sbOff } c4
+    r r8 c \tuplet 3/2 8 { \sbOn c16 d c h c a \sbOff } h4
+    r r8 h \tuplet 3/2 8 { \sbOn h16 c h a h g \sbOff } a4
+    r r8 a h16 d fis, g a d e, fis
+     \tuplet 3/2 8 { \sbOn g fis g h a g \sbOff } d c' h a h d fis, g a d e, fis %55
+     g8 g, r4 r2
+     r32 g'(\pE fis e d c h a) g4 r r8 e'
+     a4 r8 d, g4. g8
+     fis4 r r2
+     d'4. d8 e4 r %60
+     e4. e8 fis4 r
+     R1*2
+     r8 d d32(\pE c! h a g fis e d) e4 r
+     r8 fis' fis32( e d c h a g fis) g4 r %65
+     r8 a a a d,4 r
+     R1*3
+     r8 d'\fE h g a h16 c d c h a %70
+     h8 g d'4. d8 cis4
+     d8 \once \tieDashed h'~ h32( a g fis e d c h) c8 a'~ a32( g fis e d c h a)
+     h16 d fis, g a d e, fis \tuplet 3/2 8 { \sbOn g fis g h a g \sbOff } d c' h a
+     h d fis, g a d e, fis g8 g, r4\fermata \bar "||" %74 finis
+  }
+}

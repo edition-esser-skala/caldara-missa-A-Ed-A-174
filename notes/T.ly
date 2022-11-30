@@ -201,3 +201,47 @@ GloriaTenoreLyrics = \lyricmode {
   in ex -- cel -- sis De -- %45
   o. %46 finis
 }
+
+LaudamusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoLaudamus
+      \set Score.currentBarNumber = #47
+    R1*9 %55
+    r8 \mvTr d\pE^\solo h[ g] a[ h16 c] d[ c] h([ a)]
+    h4 r8 h e4~ \tuplet 3/2 8 { e16[ fis e] d[ e cis] }
+    d8[ cis16 h] a8 h g4. fis16([ e)]
+    fis([ d)] fis([ g)] a8[ h16 cis] d2~
+    d16[ cis h a] g[ fis e d] e'2~ %60
+    e16[ d cis h] a[ g fis e] fis'[ e d cis] h[ a g fis]
+    g'[ fis e d] cis[ h a g] fis8 a h([ cis)]
+    d g, \appoggiatura fis16 e8. d16 d4 r
+    d8([ fis)] g h^\critnote h[ e, a c]~
+    c[ fis, h d]~ d[ g, c e]~ %65
+    e d4 c8 h d h g
+    e'4. fis8 g16[ fis e d] c[ h a g]
+    fis'[ e d c] h[ a g fis] e'[ d c h] a[ g] fis([ e)]
+    d8 fis g c h16([ d fis, g] a8) g16([ fis)]
+    g4 r r2 %70
+    R1*3
+    R1\fermata \bar "||" %74 finis
+  }
+}
+
+LaudamusTenoreLyrics = \lyricmode {
+  Lau -- da -- _ _ mus %56
+  te, lau -- da -- _
+  _ mus, lau -- da -- mus
+  te, lau -- da -- _
+  _ _ %60
+  _ _ _
+  _ _ mus, lau -- da --
+  mus, lau -- da -- mus te,
+  glo -- ri -- fi -- ca --
+  %65
+  _ mus te, glo -- ri -- fi --
+  ca -- _ _ _
+  _ _ _ _ mus
+  te, glo -- ri -- fi -- ca -- mus
+  te. %70 finis
+}

@@ -318,3 +318,70 @@ GloriaBassFigures = \figuremode {
   r2 <6 5>4 %45
   r2. %46 finis
 }
+
+LaudamusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoLaudamus
+      \set Score.currentBarNumber = #47
+    \mvTr g4\fE-\solo g'2 fis4
+    g8 fis e d c h a h16 c
+    d8.[ fis16 g8. a16] h8 h cis cis
+    d8.[ fis,16 g8. a16] d,8 d' c h16 a %50
+    h8 h, h h c4 e8 c
+    a' a, a a h4 d8 h
+    g' g, g g a4 c8 a
+    fis' fis, fis fis g8. h16 c8 d
+    e e fis fis g h, c d %55
+    g,4 g'2\pE fis4
+    g8 g, g'4 r8 g g g
+    fis4. d8 e d e a,
+    d4 fis8 a h h h h
+    h, h h h cis' cis cis cis %60
+    cis, cis cis cis d d d d
+    e4 a,8 cis d fis g4
+    fis8 g a a, d4\fE d'
+    d, h8\pE g c!4. a8
+    d4. h8 e4. c8 %65
+    fis4. d8 g g, r h'
+    c h16 c a8 d, e e, r e'
+    d d, r d' c c, r c'~
+    c h16 a h8 fis g8. h16 c8 d
+    g,4\fE g'2 fis4 %70
+    g d8 fis g4^\critnote a
+    d,4 r8 g a fis d fis
+    g h, c d e e fis fis
+    g h, c d g,2\fermata \bar "||" %74 finis
+  }
+}
+
+LaudamusBassFigures = \figuremode {
+  r2 <2>4 <[6]> %47
+  r2. <[7] _+>4
+  r <6 5>8. \bo <[_+]>16 <5>4 \bc <[6]>4
+  r <6 5>8. <[_+]>16 r2 %50
+  r2 <9>8 <8>4.
+  r2 <9>8 <8>4.
+  r2 <9>8 <8>4.
+  r2. <6 5>4
+  r4 \bo <[6]>2 \bc <[6 5]>4 %55
+  r2 <2>4 <[6]>
+  r2 r8 <6>4 \bo <[4+]>8
+  <6>4. \bc <[6]>8 <7>4. <7 _+>8
+  r4. <_+>8 \bo <[5]>2
+  r4 <6> <5>2 %60
+  r4 <6>2.
+  r4 <_+>8 <6>4 \bc <[6]>8 <3> <4+>
+  <[6]>4 <4>8 <_+> r2
+  r2 <7>4 <6>
+  <7> <6> <7> <6> %65
+  <7>8 <6>4 <[7]>8 r2
+  r1
+  r
+  <4 2>4 \bo <[6 \l]>8 <6> r4 \bc <[6 5]>
+  r2 <2>4 <[6]> %70
+  r2 <6 5>4 <_+>
+  r4. <6>8 <_!>2
+  r4 \bo <[6 5]> <5> \bc <[6 \l]>
+  r <6 5>2. %74 finis
+}

@@ -147,3 +147,36 @@ GloriaViolinoI = {
     c2.\fermata \bar "||" %46 finis
   }
 }
+
+LaudamusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoLaudamus
+      \set Score.currentBarNumber = #47
+    r8 d'\fE h g a h16 c d c h a
+    h g h d g8 g g \tuplet 6/4 8 { a,32( h cis d e fis) } g8 g
+    fis16 a cis, d e a h, cis \tuplet 3/2 8 { \sbOn d cis d fis e d \sbOff } a g' fis e
+    fis a cis, d e a h, cis d8 d, r d' %50
+    d' d d32 c h a g fis e d e4 r8 e
+    c' c c32 h a g fis e d c d4 r8 d
+    h' h h32 a g fis e d c h c4 r8 c
+    a' a a32 g fis e d c h a h16 d fis, g a d e, fis
+    \tuplet 3/2 8 { \sbOn g fis g h a g \sbOff } d c' h a h d fis, g a d e, fis %55
+    g8 g, r4 r2
+    r32 g'\p fis e d c h a g4 r8 h'' e,4
+    r8 a d,4 r8 d4 cis8
+    d4 r r2
+    r8 fis g g g g, g'4 %60
+    r8 g a a a a, a'4
+    R1
+    r2 r8 a\f fis d
+    a4-\critnote r r8 e'\p e32( d c! h a g fis e)
+    fis4 r r8 g' g32( fis e d c h a g) %65
+    a8 a'~ a32 g fis e d c h a h4 r
+    R1*4 %70
+    r8 g'\fE fis d e fis16 g a g fis e
+    fis8 h~ h32( a g fis e d c! h) c8 a'~ a32( g fis e d c h a)
+    h16 d fis, g a d e, fis \tuplet 3/2 8 { \sbOn g fis g h a g \sbOff } d c' h a
+    h d fis, g a d e, fis g8 g, r4\fermata \bar "||" %74 finis
+  }
+}

@@ -260,9 +260,6 @@ GloriaSopranoLyrics = \lyricmode {
   o. %46 finis
 }
 
-
-% Lau -- da -- mus te, be -- ne -- di -- ci -- mus te,
-% ad -- o -- ra -- mus te, glo -- ri -- fi -- ca -- mus te.
 % Gra -- ti -- as a -- gi -- mus ti -- bi
 % pro -- pter ma -- gnam glo -- ri -- am tu -- am,
 % Do -- mi -- ne De -- us, Rex coe -- le -- stis,
