@@ -359,10 +359,6 @@ GratiasSopranoLyrics = \lyricmode {
   tens. %122 finis
 }
 
-
-
-% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
-% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
 % Qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.
 % Qui tol -- lis pec -- ca -- ta mun -- di:

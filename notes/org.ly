@@ -492,3 +492,92 @@ GratiasBassFigures = \figuremode {
   <4>2 \bc <[3]>
   r1 %122 finis
 }
+
+DomineOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoDomine
+      \set Score.currentBarNumber = #123
+    \mvTr a8\fE-\solo a' gis4 a8 c, a c
+    d4. e8 a a f f
+    d h' gis e a a,16 h c8 a %125
+    d h e c f d g f
+    e a f g c, c'16 b a8 g
+    f d cis a d e f g
+    e c h g c d e f
+    e gis a4 e8 gis a4 %130
+    h gis8 e a f d e
+    a, c\pE gis4 a c8 a
+    d c gis4 a8 a' c a
+    d c h g16 h c8 c, r c
+    f g a b e, a d, g %135
+    c,c16 d e8 f16 g a8 f g e
+    f d e c d d' h g
+    c a f g c4\fE h
+    c8 e, c e f d h4
+    c8 e a e f d h4 %140
+    c8 a d h e c f d
+    g g, a4 h g'8 h,^\critnote
+    c f g g, c c'\pE g a16 h
+    c8 c, r c f g a h
+    c c, c b a4. a8 %145
+    d4 h8 cis d4 a'8 a,
+    d4. g,8 c4 g'8 g,
+    c d e c h h e d
+    c16 a a'8~ a gis a4 d,
+    e c d8 d' d d, %150
+    a a' a a, e' e e d
+    c4 cis d4. d8
+    e4. e8 c f d e
+    a,\fE a' gis4 a8 a, c a
+    e'4 fis8 gis a a, h g %155
+    c a d4 e8 e gis e
+    a4 g8 e f d cis a
+    d e f4 e a8 a,
+    e'4 a, h8 h' gis e
+    a f d e f c d e %160
+    a,2 r\fermata \bar "||" %161 finis
+  }
+}
+
+DomineBassFigures = \figuremode {
+  r4 <[6]>2. %123
+  <6 5>4. <_+>8 r2
+  <[6 5]>4 <7>8 <[_+]> r2 %125
+  r1
+  <[6]>4 <6 5>2 <_+>4
+  \bo <[6]> <6>8 <_+>4 <6\\>8 <6> <3>
+  <6!>4 <6>4. q8 \bc <[6]>4
+  <_+>2 q %130
+  \bo <[6\\]>4. \once \bassFigureExtendersOn \bc q8 r4 <6 5>8 <[_+]>
+  r4 <6>8 <5> r2
+  <6>8 q <6 5>2.
+  r1
+  r2 <[7 5-]>4 <7>8 <_!> %135
+  r2. <9>4
+  q q q \bo <[6 \l]>
+  <9>8 <5> <6 5>2 \bc <[6 \l]>4
+  r2 <[6]>4 <7>8 <6>16 <5>
+  r4. <6>8 <[6]>4 <7>8 <6>16 <5> %140
+  r1
+  r4 <6\\> <6>4. <[5!]>8
+  r4 <4>8 <3> r2
+  r <6>8 q q4
+  r4. <[6]>8 <7 _+>2 %145
+  r4 <6>2 <4>8 <_+>
+  r2. <4>8 <3>
+  r2 <6>4 <_+>
+  <6> <2>8 <[6]>4. <6>8 <5>
+  <_+>4 <6> <_!>2 %150
+  r <_+>4. \bo <[\t]>8
+  <6>4 <\t> \bc <[5]> <6->8 <5>
+  <[5!] _+>4 \bo <6 [4]>8 \bc <5 [_+]> \bo <[6 \l]>4 <6 5>8 <_+>
+  r4 \bc <[6 \l]>2.
+  <_+>4 \bo <[6]>8 \bc q r4 <6!> %155
+  r <_!> <_+>2
+  <_!>4 <4+ 2> \bo <[6]> \bc q8 <_+>
+  r <6\\> <6>4 <_+>2
+  <_+>2 \bo <[6\\]>4. \once \bassFigureExtendersOn \bc q8
+  r4 \bo <[6 5]>8 \bc <[_+ \l]>4. <6 5>8 <[_+]> %160
+  r1 %161 finis
+}

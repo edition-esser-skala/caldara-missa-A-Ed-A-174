@@ -308,3 +308,57 @@ GratiasAltoLyrics = \lyricmode {
   mni -- po --
   tens. %122 finis
 }
+
+DomineAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoDomine
+      \set Score.currentBarNumber = #123
+    R1*9 %131
+    \mvTr a'4\pE^\solo e8 d c e a, a'
+    \appoggiatura g!16 f8[ e h' d,] \appoggiatura d c8. h16 a4
+    f'4. e16([ d)] e[ d c d] e[ c e g]
+    a4. g16[ f] g8[ f16 e] f8[ e16 d] %135
+    e8 e16 f g8 a16([ h)] c4 h
+    a8. a16 g4 f4. g8
+    e d16([ c)] d4 c r
+    R1*4 %142
+    r2 c'4 g8. f16
+    e8 g c, e d e f16([ e)] f([ g)]
+    e8 c g'4. f16 e a8[ g] %145
+    f16[ d e f] g8[ f16 e] f8 d4 cis8
+    d[ e] f16[ e f g] e8 c4 h8
+    c4 r8 e16[ f] g4 gis
+    a8[ e] h'4 c8 h4 a8
+    gis e a e f2 %150
+    e gis8 a4 h8
+    e,[ a16 b] a[ g f e] f8[ d b' a]
+    gis[ e c' h] e, a4 gis8
+    a4 r r2
+    R1*6 %160
+    R1\fermata \bar "||" %161 finis
+  }
+}
+
+DomineAltoLyrics = \lyricmode {
+  Do -- mi -- ne Fi -- li u -- ni -- %132
+  ge -- _ ni -- te,
+  u -- ni -- ge -- _
+  _ _ _ _ %135
+  _ ni -- te, Fi -- li __ u -- ni --
+  ge -- ni -- te, Je -- su,
+  Je -- su Chri -- ste.
+
+  Do -- mi -- ne %143
+  De -- us, A -- gnus De -- i, A -- gnus
+  De -- i, Fi -- li -- us Pa -- %145
+  _ _ _ _ _
+  _ _ _ _ _
+  tris, Do -- _ _
+  _ _ _ mi -- ne
+  De -- us, A -- gnus De -- %150
+  i, Fi -- li -- us
+  Pa -- _ _
+  _ _ _ _
+  tris. %154 finis
+}

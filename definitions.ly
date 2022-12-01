@@ -15,6 +15,7 @@ tempoGloria = \tempoMarkup "Allegro / Fresco"
 tempoLaudamus = \tempoMarkup "Andante"
 tempoGratias = \tempoMarkup "Adagio"
   tempoGratiasB = \tempoMarkup "Alla breve"
+tempoDomine = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"

@@ -232,3 +232,47 @@ GratiasViolinoI = {
     c2 r\fermata \bar "||" %122 finis
   }
 }
+
+DomineViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoDomine
+      \set Score.currentBarNumber = #123
+    a''8.\fE g32 f e8 d \appoggiatura d16 c8 h16 a \appoggiatura d c8 h16 a
+    h c d e f f e d \appoggiatura d c8 h16 a \appoggiatura d c8 h16 a
+    h c d e f d e h c8 a r16 e' d e %125
+    \kneeBeam f8 d, g' e, \kneeBeam a' f, h' g,
+    c' c,16 d d4\trill c r16 cis cis cis
+    d a d f e a, e' g f a d, cis d h h h
+    c g c e d g, d' f e g c, h c8 a'
+    \appoggiatura a16 gis8 fis16 e \appoggiatura d c8 h16 a \appoggiatura a gis8 fis16 e \appoggiatura d c8 h16 a %130
+    gis8 d'' e, h'' c,16 e a h h4\trillE
+    a r r2
+    R1*3 %135
+    r2 r8 a4\p g8~
+    g f4 e a,8 d4~
+    d8 c c h c'8.\f h32 a g8 f
+    \appoggiatura f16 e8 d16 c \appoggiatura f16 e8 d16 c d e f g a a g f
+    \appoggiatura f16 e8 d16 c \appoggiatura f16 e8 d16 c d e f g a a g f %140
+    \kneeBeam e8 c, f' d, \kneeBeam g' e, a' f,
+    h'16 h h h c8 fis, g g, h, f''
+    e16 h c a h4\trillE c r
+    R1
+    r4 e8\p d cis4. cis8 %145
+    d4 r d16 a d f e a, e' g
+    f a d ,cis d h h h c g c e d g, d' f
+    e g c, h c8 g d'4 h
+    c d8 e e4 r
+    r r8 a \appoggiatura g!16 f8 e16 d \appoggiatura g f8 e16 d %150
+    \appoggiatura d c8 h16 a \appoggiatura d c8 h16 a h8 e, r4
+    R1*2
+    a'8.\f g32 f e8 d \appoggiatura d16 c8 h16 a \appoggiatura d c8 h16 a
+    \appoggiatura a gis8 fis16 e \appoggiatura e' d8 c16 h \kneeBeam c8 a, d' h, %155
+    e' c, f' a, gis16 e gis a h c a h
+    c8 a, cis'8. h32 cis d16 a d f e a, e' g
+    f a d, cis d8 a' \appoggiatura a16 gis8 fis16 e \appoggiatura d c8 h16 a
+    \appoggiatura a gis8^\critnote fis16 e \appoggiatura d c8 h16 a gis8 d'' e, h''
+    c,16 e a h h4\trillE a8 a,16 h h4\trill %160
+    a2 r\fermata \bar "||" %161 finis
+  }
+}
