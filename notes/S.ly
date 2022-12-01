@@ -359,12 +359,105 @@ GratiasSopranoLyrics = \lyricmode {
   tens. %122 finis
 }
 
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
-% Qui se -- des ad dex -- te -- ram Pa -- tris:
-% Mi -- se -- re -- re no -- bis.
+QuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 3/2 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #161
+    R1.*4 %164
+    \mvTr a'1.\fE^\tutti %165
+    b
+    a
+    g2 g a
+    f d r
+    r \mvTr a'\pE^\solo a %170
+    b1.
+    a2 d c!
+    b1 a2~
+    a a( g)
+    a1 r2 %175
+    r \mvTr a1\fE^\tutti
+    a1.
+    a
+    h!
+    c! %180
+    a
+    c
+    b
+    a2 a1^\critnote
+    g2 r r %185
+    \mvTr b?2.\pE^\solo b4 b2
+    es?( d) c
+    b2. as4 g2
+    f4( es) as1
+    g2 es' c %190
+    a!1.
+    as2. b4 g2
+    f f1
+    es \mvTr b'2\fE^\tutti
+    b1. %195
+    b1 b2
+    as2. as4 as2
+    a1.~
+    a
+    gis2 h! h %200
+    h1.
+    c
+    a1 a2
+    a1.
+    b2 a1 %205
+    a2 r r
+    R1.*3
+    R1.\fermata \bar "||" %210 finis
+  }
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+  Qui %165
+  tol --
+  lis
+  pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- %170
+  re --
+  re, mi -- se --
+  re -- re __
+  no --
+  bis. %175
+  Qui
+  tol --
+  lis,
+  qui
+  tol -- %180
+  lis
+  pec --
+  ca --
+  ta mun --
+  di: %185
+  Su -- sci -- pe
+  de -- pre --
+  ca -- ti -- o --
+  nem __ no --
+  stram, de -- pre -- %190
+  ca --
+  _ ti -- o --
+  nem no --
+  stram. Qui
+  se -- %195
+  des ad
+  dex -- te -- ram
+  Pa --
+
+  tris: Mi -- se -- %200
+  re --
+  re,
+  mi -- se --
+  re --
+  re no -- %205
+  bis. %206 finis
+}
+
+
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
 % tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.

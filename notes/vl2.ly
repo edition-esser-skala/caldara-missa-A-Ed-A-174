@@ -236,3 +236,61 @@ GratiasViolinoII = {
     e2 r\fermata \bar "||" %122 finis
   }
 }
+
+QuiTollisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 3/2 \tempoQuiTollis
+      \set Score.currentBarNumber = #161
+    d4\fE f a d f a
+    d a f d a f
+    d a d2 d
+    d cis r
+    r4 d f a d f %165
+    r d, g b d g
+    r d, f a d f
+    r e, g cis e cis
+    d d' a f d a
+    d,2 r r %170
+    r d\pE d
+    cis f e
+    d d c
+    c b b-\critnote
+    a4\fE cis e a cis e %175
+    a e cis a e cis
+    r a cis e a cis
+    f a f d a f
+    d h! d g h d
+    c, e g c e g %180
+    c,, f a c f a
+    d,, fis a d fis a
+    r g, b d g b
+    a g g2 fis
+    g4 d g, d g,2 %185
+    es'\pE es es~
+    es es es
+    d d es
+    es es d
+    es es es %190
+    c c c
+    d d es
+    as, b b
+    r4 es\fE g b es g
+    r es, g b es g %195
+    r e, g b e g
+    r f, as c f as
+    r f, a c f a
+    r e,! a c e! a
+    r e, gis h! e gis %200
+    r f, gis h d gis
+    r e, a c e a
+    r e, g! cis e g
+    r d, f a d f
+    e d d2 cis %205
+    d,4 f a d f a
+    d a f d a f
+    d2 d d
+    d1 cis2
+    d1.\fermata \bar "||"
+  }
+}

@@ -362,3 +362,77 @@ DomineAltoLyrics = \lyricmode {
   _ _ _ _
   tris. %154 finis
 }
+
+QuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 3/2 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #161
+    R1.*4 %164
+    \mvTr f1.\fE^\tutti %165
+    g
+    f
+    e2 e e
+    d d r
+    R1.*6 %175
+    r2 \mvTr e1\fE^\tuttiE
+    e1.
+    f
+    d
+    e %180
+    f
+    fis
+    g
+    g2 g( fis)
+    g r r %185
+    R1.*8 %193
+    r2 r \mvTr es\fE^\tuttiE
+    es1. %195
+    e1 e2
+    f2. f4 f2
+    f1.
+    e!
+    e2 gis1 %200
+    gis1.
+    a
+    g!1 g2
+    f1.
+    e2 e1\trill %205
+    d2 r r
+    R1.*3
+    R1.\fermata \bar "||" %210 finis
+  }
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+  Qui %165
+  tol --
+  lis
+  pec -- ca -- ta
+  mun -- di:
+
+  Qui %175
+  tol --
+  lis,
+  qui
+  tol -- %180
+  lis
+  pec --
+  ca --
+  ta mun --
+  di: %185
+
+  Qui %194
+  se -- %195
+  des ad
+  dex -- te -- ram
+  Pa --
+  tris:
+  Mi -- se -- %200
+  re --
+  re,
+  mi -- se --
+  re --
+  re no -- %205
+  bis. %206 finis
+}

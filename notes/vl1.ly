@@ -276,3 +276,61 @@ DomineViolinoIeII = {
     a2 r\fermata \bar "||" %161 finis
   }
 }
+
+QuiTollisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 3/2 \tempoQuiTollis
+      \set Score.currentBarNumber = #161
+    d4\fE f a d f a
+    d a f d a f
+    d a-\critnote f'2 f
+    f e r
+    d4 f a d f a %165
+    d,, g b d g b
+    d,, f a d f a
+    e, g cis e g e
+    f d' a f d a
+    d,2 r r %170
+    r f\pE f
+    e a g
+    f f e
+    e d d
+    a4\fE cis e a cis e %175
+    a e cis a e cis
+    a cis e a cis e
+    a f d a f d
+    h! d g h d g
+    e, g c e g c %180
+    f,, a c f a c
+    fis,, a d fis a c
+    g, b d g b g
+    es2 a,1
+    g'4 d b d, g,2 %185
+    g'\pE g g
+    g g as
+    f f g
+    g f f
+    es g g %190
+    es' es es
+    f f b,
+    es es d
+    es,4\fE g b es g b
+    es,, g b es g b %195
+    e,, g b e g b
+    f, as c f as c
+    es,, a c es a c
+    e,, a c e a c
+    e,, gis h! e gis h %200
+    f, gis h d gis h
+    e,, a c e a c
+    e,, g! cis e a e
+    d, f a d f a
+    b2 e,1 %205
+    d,4 f a d f a
+    d a f d a f
+    d2 f f
+    e1.
+    d\fermata \bar "||" %210 finis
+  }
+}

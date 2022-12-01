@@ -344,3 +344,77 @@ GratiasTenoreLyrics = \lyricmode {
   mni -- po --
   tens. %122 finis
 }
+
+QuiTollisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \dorian \time 3/2 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #161
+    R1.*4 %164
+    \mvTr d1.\fE^\tutti %165
+    d
+    d
+    b?2 b e
+    a, a r
+    R1.*6 %175
+    r2 \mvTr cis1\fE^\tuttiE
+    cis1.
+    d
+    g,
+    g %180
+    c
+    a
+    b
+    es2 d1
+    d2 r r %185
+    R1.*8 %193
+    r2 r \mvTr g,\fE^\tuttiE
+    g1. %195
+    g1 c2
+    c2. c4 c2
+    c1.~
+    c
+    h!2 e e %200
+    f1.
+    e
+    e1 e2
+    a,1.
+    d2 d( cis) %205
+    d r r
+    R1.*3
+    R1.\fermata \bar "||" %210 finis
+  }
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+  Qui %165
+  tol --
+  lis
+  pec -- ca -- ta
+  mun -- di:
+
+  Qui %175
+  tol --
+  lis,
+  qui
+  tol -- %180
+  lis
+  pec --
+  ca --
+  ta mun --
+  di: %185
+
+  Qui %194
+  se -- %195
+  des ad
+  dex -- te -- ram
+  Pa --
+
+  tris: Mi -- se -- %200
+  re --
+  re,
+  mi -- se --
+  re --
+  re no -- %205
+  bis. %206 finis
+}

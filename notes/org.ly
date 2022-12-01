@@ -581,3 +581,92 @@ DomineBassFigures = \figuremode {
   r4 \bo <[6 5]>8 \bc <[_+ \l]>4. <6 5>8 <[_+]> %160
   r1 %161 finis
 }
+
+QuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 3/2 \tempoQuiTollis
+      \set Score.currentBarNumber = #161
+    \mvTr d,4-!\fE-\solo f-! a-! d-! f-! a-!
+    d-! a-! f-! d-! a-! f-!
+    d2-! d' gis,
+    a a r
+    \mvTr d1.\fE-\tutti %165
+    d
+    d
+    d2 d cis
+    d4 d'-! a-! f-! d-! a-!
+    d,2-! r r %170
+    R1.*5 %175
+    r2 \mvTr a''1\fE^\tuttiE
+    g1.
+    f
+    f
+    e %180
+    es
+    d
+    g
+    c,2 d1
+    g,2 r r %185
+    R1.*8 %193
+    r2 r \mvTr es'2\fE-\tutti
+    des1. %195
+    c
+    f
+    es
+    e
+    e %200
+    d
+    c
+    cis
+    d
+    g,2 a1 %205
+    d,4-! f-! a-! d-! f-! a-!
+    d-! a-! f-! d-! a-! f-!
+    d2-! gis gis
+    a1.
+    d,\fermata \bar "||" %210 finis
+  }
+}
+
+QuiTollisBassFigures = \figuremode {
+  r1. %161
+  r
+  r1 <7>2
+  <6 4> <5 _+>1
+  r1. %165
+  <6- 4>
+  <5 3>
+  <[6-] 4 2>1 <[6]>2
+  r1.
+  r %170
+  r1.*5 %175
+  r2 <_+>1
+  <4+ 2>1.
+  <6>
+  <4! 2>
+  <6!> %180
+  <4 2>
+  <7 _+>
+  <_->
+  <6 5 _->2 <4> <_+>
+  <[_-]>1. %185
+  r1.*8 %193
+  r1 <[5-]>2
+  <[6-] 4 2->1. %195
+  <7- _!>
+  <_->
+  <4! 2>
+  <6 4>
+  <[5!] _+> %200
+  <6 4+ 3>
+  <6>
+  <6 5!>
+  r
+  <6 5 [_-]>2 <4> <_+> %205
+  r1.
+  r
+  r2 <7>1
+  <4> <_+>2
+  r1. %210 finis
+}

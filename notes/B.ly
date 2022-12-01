@@ -366,3 +366,77 @@ GratiasBassoLyrics = \lyricmode {
   mni -- po --
   tens. %122 finis
 }
+
+QuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 3/2 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #161
+    R1.*4 %164
+    \mvTr d1.\fE^\tuttiE %165
+    d
+    d
+    d2 d cis
+    d d r
+    R1.*6 %175
+    r2 \mvTr a'1\fE^\tuttiE
+    g1.
+    f
+    f
+    e %180
+    es
+    d
+    g
+    c,2 d1
+    g,2 r r
+    R1.*8 %193
+    r2 r \mvTr es'\fE^\tuttiE
+    des1. %195
+    c1 c2
+    f2. f4 f2
+    es1.
+    e
+    e2 e e
+    d1.
+    c
+    cis1 cis2
+    d1.
+    g,2 a1
+    d,2 r r
+    R1.*3
+    R1.\fermata \bar "||"
+  }
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+  Qui %165
+  tol --
+  lis
+  pec -- ca -- ta
+  mun -- di:
+
+  Qui %175
+  tol --
+  lis,
+  qui
+  tol -- %180
+  lis
+  pec --
+  ca --
+  ta mun --
+  di: %185
+
+  Qui %194
+  se -- %195
+  des ad
+  dex -- te -- ram
+  Pa --
+  _
+  tris: Mi -- se -- %200
+  re --
+  re,
+  mi -- se --
+  re --
+  re no -- %205
+  bis. %206 finis
+}
