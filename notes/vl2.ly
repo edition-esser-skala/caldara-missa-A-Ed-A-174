@@ -294,3 +294,56 @@ QuiTollisViolinoII = {
     d1.\fermata \bar "||"
   }
 }
+
+QuoniamViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #211
+    f8.\fE g16 a g a b c8 c, r f'
+    e16-! d( c d) c-! b( a b) a f a c f8 a
+    g16-! f( e f) e-! d( c b) a g f8 r a
+    f' f f f g,16 g, g' g, g' g, g' g,
+    e''-! c( h c) d8 h c4 f,16 g f e %215
+    d4 g16 a g f e4 a16 b a g
+    f4 b16 c b a g4 c16 d c b
+    a b a b a b a b c8 b16 a b8 a16 g
+    a8 f4 e8 f4 r
+    R1*3 %222
+    r2 r16 c'\pp c b^\critnote a f a c
+    f8 f f f g,16 g, g' g, g' g, g' g,
+    e''4 r g16 g d d h h g g %225
+    e'4 r g16 g d d h h g g
+    e'4 a16 b a g f4 g16 a g f
+    e4 f16 g f e d4 g,
+    f16 e f g a g a h c4 a
+    g8 a e d c'16\f h c d e d e f %230
+    g8 g, r c' h16-! a( g a) g-! f( e f)
+    e c e g c8 c, h16-! a( g a) g-\parenthesize-! \once \slurDashed f( e f)
+    e c e g c8 g a16 b a g f4
+    h16 c h a g4 c16 d c h a4
+    d16 e d c h8 c16 d e c h c d8 h %235
+    c4 r r2
+    r c'16\pp c, c' c, c' c, c' c,
+    a'4 r r d,8 d,
+    r4 e'8 e, r4 d'8 d,
+    R1 %240
+    r2 f'16 f c c a a f f
+    d'4 r f16 f c c a a f f
+    d' b d f b4 r2
+    R1
+    r16 g,\f b d g8 b b16 e,, g c g'8 b %245
+    a16 g f e f g a h c c, c' c, c,4
+    r2 c'8.\pp d16 e8 f
+    e16-! d( c d) c-! b( a b) a g f8 r4
+    R1*3 %251
+    f8.\f g16 a g a b c8 c, r f'
+    e16-! d( c d) c-! b( a b) a g f8 r a
+    f' f f f g,16 g, g' g, g' g, g' g,
+    e'' c h c d8 h c4 r %255
+    d,16 es d c b4 e16 f e d c4
+    f16 g f e d4 g16 a g f e8 c'~
+    c b16 a b8 g a f4 e8
+    f2 r\fermata \bar "||" %259 finis
+  }
+}
