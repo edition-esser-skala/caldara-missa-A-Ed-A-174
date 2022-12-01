@@ -385,3 +385,110 @@ LaudamusBassFigures = \figuremode {
   r4 \bo <[6 5]> <5> \bc <[6 \l]>
   r <6 5>2. %74 finis
 }
+
+GratiasOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoGratias
+      \set Score.currentBarNumber = #75
+    r4 \mvTr e2\fE-\tutti e4
+    cis d e2
+    d r4 c~
+    c c h2
+    e4 ais, h2
+    \time 2/2 \tempoGratiasB e,2 e'~ %80
+    e4 e dis2
+    e4 d c h
+    a h c d
+    e2 d4 e
+    fis1 %85
+    d2 d~
+    d cis
+    d h~
+    h4 h e2~
+    e dis %90
+    e1
+    \clef "treble_8" e2 fis
+    g a4 h
+    c1
+    h2 \clef bass h,~ %95
+    h4 h cis2
+    d e4 fis
+    g1
+    fis
+    fis %100
+    e
+    h
+    e4 d! c! h
+    a h c d
+    e2 h %105
+    c1
+    d
+    d
+    g,2 g'~
+    g e %110
+    f! d
+    e a,
+    e'1
+    a,
+    a %115
+    a
+    a'2 g!4 f
+    e d c d
+    e1
+    d2 c %120
+    g' g,
+    c^\critnote r\fermata \bar "||" %122 finis
+  }
+}
+
+GratiasBassFigures = \figuremode {
+  r1 %75
+  <6 5>4 <_+> <7> <6\\>
+  <_+>2. <6 4+ 2+>4
+  r2 <7 [5+] _+>
+  r4 <7 [_+]> \bo <[5+] 4> \bc <[\t] _+>
+  r1 %80
+  r2 <[6 _+]>
+  r1
+  r
+  r2 <6>
+  \bo <[5+] 4>2. \bc <[\t] _+>4 %85
+  \bo <6 [_+]>2 <8 [\t]>
+  <4 2> <[6 5]>
+  r <7 [5+] _+>
+  r1
+  <4 2+>2 <[6 5 _+]> %90
+  r1
+  r2 <6\\>
+  \bo <[6 \l]> <5>4 \bc <[5+ _+]>
+  <7>2 <6>
+  \bo <[5+] _+>2 \bc <[\t] _!> %95
+  r2 <7>4 <6\\>
+  \bo <[6 \l]>2 <6+ 4+>4 \bc <[\t \t]>
+  <5>2 <6>
+  <[5+] _+> <6 4>
+  <5+ \t> <\t _!>4 <[6\\] \t> %100
+  <4>2 <_+>
+  \bo <[5+ 4]> \bc <[\t] _+>
+  r1
+  <9>2 <[6]>
+  <4> <[6 4]> %105
+  \bo <9 [7]> <8 6>
+  \bc <7 [5]> <6 4>
+  <4> <_+>
+  r1
+  r2 <6> %110
+  r <6>4 <5>
+  <[7] _+>1
+  <4>2 <_+>
+  r1
+  r %115
+  r
+  r2 <3>4 <\t>
+  <6>1\once \bassFigureExtendersOn
+  q
+  \bo <[6]> %120
+  <4>2 \bc <[3]>
+  r1 %122 finis
+}

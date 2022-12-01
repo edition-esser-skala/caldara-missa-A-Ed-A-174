@@ -263,3 +263,106 @@ GloriaBassoLyrics = \lyricmode {
   in ex -- cel -- sis De -- %45
   o. %46 finis
 }
+
+GratiasBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #75
+    r4 \mvTr e4.\fE^\tuttiE e8 e4
+    cis d8 d e2
+    d r4 c~
+    c c h h
+    e ais,8 ais h2
+    \time 2/2 e,2 e'~ %80
+    e4^\critnote e dis2
+    e4 d c h
+    a h c d
+    e2 d4 e
+    fis1 %85
+    d2 d~
+    d cis
+    d h
+    h4 h e2
+    e( dis) %90
+    e r
+    R1*3
+    r2 h~ %95
+    h4 h cis2
+    d e4( fis)
+    g1
+    fis
+    fis %100
+    e
+    h2 h4 h
+    e( d!) c!( h)
+    a( h) c( d)
+    e2 h %105
+    c1
+    d
+    d
+    g,2 g'~
+    g e %110
+    f! d
+    e a,4 a
+    e'2. e4
+    a,2 a4 a
+    a1 %115
+    a
+    a'2 g!4( f)
+    e d c d
+    e1
+    d2 c %120
+    g' g,
+    c r\fermata \bar "||" %122 finis
+  }
+}
+
+GratiasBassoLyrics = \lyricmode {
+  Gra -- ti -- as %75
+  a -- gi -- mus ti --
+  bi pro --
+  pter ma -- gnam
+  glo -- ri -- am tu --
+  am, gra -- %80
+  ti -- as
+  a -- _ _ _
+  _ _ _ _
+  _ gi -- mus
+  ti -- %85
+  bi pro --
+  pter
+  ma -- gnam
+  glo -- ri -- am
+  tu -- %90
+  am,
+
+  Do -- %95
+  mi -- ne
+  De -- us, __
+  Rex
+  coe --
+  le -- %100
+  stis,
+  Do -- mi -- ne
+  De -- us, __
+  Rex __ coe --
+  le -- stis, %105
+  Rex
+  coe --
+  le --
+  stis, De --
+  us %110
+  Pa -- ter,
+  Pa -- ter o --
+  mni -- po --
+  tens, De -- us
+  Pa -- %115
+  ter,
+  De -- us __
+  Pa -- _ _ _
+  _
+  ter o -- %120
+  mni -- po --
+  tens. %122 finis
+}

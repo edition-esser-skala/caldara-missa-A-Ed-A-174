@@ -180,3 +180,55 @@ LaudamusViolinoI = {
     h d fis, g a d e, fis g8 g, r4\fermata \bar "||" %74 finis
   }
 }
+
+GratiasViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGratias
+      \set Score.currentBarNumber = #75
+    r4 h'2\fE h4
+    e d2 cis4
+    d2 r4 dis~
+    dis8 dis dis4 dis2
+    e4. e8 e4 dis
+    \time 2/2 \tempoGratiasB e2 e,~ %80
+    e4 e fis2
+    g a4 h
+    c1
+    h
+    r4 h2 ais4 %85
+    h2 cis4 d
+    e2. e4
+    a,2 a~
+    a4 a g2
+    a1 %90
+    g2 e'~
+    e4 e dis2
+    e4 d c h
+    h2 a
+    h1 %95
+    R1*5 %100
+    r2 e,~
+    e4 e fis2
+    g a4 h
+    c1
+    h2 h~ %105
+    h4 h a2
+    a g4 g
+    g2 fis
+    g d'~
+    d4 d e2 %110
+    c d~
+    d4 d c2
+    h1
+    a2 a4 h^\critnote
+    c d e2~ %115
+    e4 c a h
+    c d e f
+    g f e d
+    c1
+    h2 c %120
+    \appoggiatura c^\critnote h2. h4^\critnote
+    c2 r\fermata \bar "||" %122 finis
+  }
+}

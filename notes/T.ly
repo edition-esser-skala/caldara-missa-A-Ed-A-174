@@ -245,3 +245,102 @@ LaudamusTenoreLyrics = \lyricmode {
   te, glo -- ri -- fi -- ca -- mus
   te. %70 finis
 }
+
+GratiasTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #75
+    r4 \mvTr g4.\fE^\tutti g8 g4
+    g fis8 fis h4( g)
+    a2 r4 fis~
+    fis fis fis h
+    h cis8 cis h2
+    \time 2/2 \tempoGratiasB h2 h~ %80
+    h4 h h2
+    h e4 d!
+    c h a2
+    g4( a) h2
+    fis fis %85
+    R1*5 %90
+    r2 e~
+    e4 e fis2
+    g4 g a h
+    c1
+    h %95
+    r4 h2 ais4
+    h2 ais
+    h4( cis) d( e)
+    fis2 e4 d
+    cis h cis dis %100
+    e h e2~
+    e dis
+    e1
+    R
+    r2 d~ %105
+    d c
+    c h
+    a1
+    h
+    h2 c %110
+    a d
+    h c4 d
+    e2. e4
+    e2 e4 e
+    a, h c d %115
+    e2. d4
+    c2 h
+    c g
+    g1
+    d'2 g, %120
+    g2. g4
+    g2 r\fermata \bar "||" %122 finis
+  }
+}
+
+GratiasTenoreLyrics = \lyricmode {
+  Gra -- ti -- as %75
+  a -- gi -- mus ti --
+  bi pro --
+  pter ma -- gnam
+  glo -- ri -- am tu --
+  am, gra -- %80
+  ti -- as
+  a -- _ _
+  _ _ _
+  gi -- mus
+  ti -- bi, %85
+
+  Do -- %91
+  mi -- ne
+  De -- us, Rex coe --
+  le --
+  stis, %95
+  Rex coe --
+  le -- stis,
+  Rex __ coe --
+  le -- _ _
+  _ _ _ _ %100
+  _ _ _
+  _
+  stis,
+
+  Rex __ %105
+  coe --
+  le -- _
+  _
+  stis,
+  De -- us %110
+  Pa -- ter,
+  Pa -- ter o --
+  mni -- po --
+  tens, De -- us
+  Pa -- _ _ _ %115
+  _ ter,
+  De -- us
+  Pa -- _
+  _
+  ter o -- %120
+  mni -- po --
+  tens. %122 finis
+}

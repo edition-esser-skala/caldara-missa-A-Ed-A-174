@@ -205,3 +205,106 @@ GloriaAltoLyrics = \lyricmode {
   in ex -- cel -- sis De -- %45
   o. %46 finis
 }
+
+GratiasAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #75
+    r4 \mvTr e4.\fE^\tutti e8 e4
+    e d8 d d4( cis)
+    d2 r4 dis~
+    dis dis dis dis
+    e e8 e e4( dis)
+    \time 2/2 \tempoGratiasB e2 r %80
+    R1*3
+    r2 h~
+    h4 h cis2 %85
+    d e4 fis
+    g1
+    fis2 dis~
+    dis4 dis h2
+    fis'2. fis4 %90
+    h,2 g'~
+    g4 g a2
+    h4 h e, dis
+    e1
+    dis2 d~ %95
+    d e
+    d cis
+    h h'
+    ais h~
+    h \once \tieDashed a2~ %100
+    a g
+    fis1
+    e2 h'~
+    h4 h a a
+    a2 g4( fis) %105
+    e1
+    d
+    d
+    d
+    g2 g %110
+    a a
+    gis a4 a
+    a2 gis
+    a e4 e
+    e1 %115
+    c2.( d4)
+    e( f) g2
+    g2. f4
+    e1
+    f2 e %120
+    d2. d4
+    e2 r\fermata \bar "||" %122 finis
+  }
+}
+
+GratiasAltoLyrics = \lyricmode {
+  Gra -- ti -- as %75
+  a -- gi -- mus ti --
+  bi pro --
+  pter ma -- gnam
+  glo -- ri -- am tu --
+  am, %80
+
+  gra -- %84
+  ti -- as %85
+  a -- gi -- mus
+  ti --
+  bi, gra --
+  ti -- as
+  a -- gi -- %90
+  mus, Do --
+  mi -- ne
+  De -- us, Rex coe --
+  le --
+  stis, Rex __ %95
+  coe --
+  le -- stis,
+  Rex coe --
+  le -- _
+  _ %100
+  _
+  _
+  stis, De --
+  us Rex coe --
+  le -- stis, __ %105
+  Rex
+  coe --
+  le --
+  stis,
+  De -- us %110
+  Pa -- ter,
+  Pa -- ter o --
+  mni -- po --
+  tens, De -- us
+  Pa -- %115
+  ter, __
+  De -- us
+  Pa -- _
+  _
+  ter o -- %120
+  mni -- po --
+  tens. %122 finis
+}

@@ -260,10 +260,107 @@ GloriaSopranoLyrics = \lyricmode {
   o. %46 finis
 }
 
-% Gra -- ti -- as a -- gi -- mus ti -- bi
-% pro -- pter ma -- gnam glo -- ri -- am tu -- am,
-% Do -- mi -- ne De -- us, Rex coe -- le -- stis,
-% De -- us Pa -- ter o -- mni -- po -- tens,
+GratiasSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #75
+    r4 \mvTr h'4.\fE^\tuttiE h8 h4
+    a a8 a g2
+    fis r4 a~
+    a a a a
+    g g8 g fis2
+    \time 2/2 \tempoGratiasB g2 e~ %80
+    e4 e fis2
+    g a4 h
+    c1
+    h
+    r4 h2 ais4 %85
+    h2 cis4( d)
+    e2. e4
+    a,2 a~
+    a4 a g2
+    a1 %90
+    g2 e'~
+    e4 e dis2
+    e4 d c h
+    h2( a)
+    h1 %95
+    R1*5 %100
+    r2 e,~
+    e4 e fis2
+    g a4( h)
+    c1
+    h %105
+    h2 a~
+    a g~
+    g fis
+    g d'~
+    d e %110
+    c d~
+    d c
+    h2. h4
+    a2 a4 h
+    c d e2~ %115
+    e4 c a h
+    c d e f
+    g f e d
+    c1
+    h2 c %120
+    \appoggiatura c h2. h4
+    c2 r\fermata \bar "||" %122 finis
+  }
+}
+
+GratiasSopranoLyrics = \lyricmode {
+  Gra -- ti -- as %75
+  a -- gi -- mus ti --
+  bi pro --
+  pter ma -- gnam
+  glo -- ri -- am tu --
+  am, gra -- %80
+  ti -- as
+  a -- gi -- mus
+  ti --
+  bi
+  pro -- pter %85
+  ma -- gnam
+  glo -- ri --
+  am, glo --
+  ri -- am
+  tu -- %90
+  am, Do --
+  mi -- ne
+  De -- us, Rex coe --
+  le --
+  stis, %95
+
+  Do -- %101
+  mi -- ne
+  De -- us, __
+  Rex
+  coe -- %105
+  le -- _
+  _
+  _
+  stis, De --
+  us %110
+  Pa -- ter __
+  o --
+  mni -- po --
+  tens, De -- us
+  Pa -- _ _ %115
+  _ _ _
+  _ _ _ _
+  _ _ _ _
+  _
+  ter o -- %120
+  mni -- po --
+  tens. %122 finis
+}
+
+
+
 % Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
 % Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
 % Qui tol -- lis pec -- ca -- ta mun -- di:
