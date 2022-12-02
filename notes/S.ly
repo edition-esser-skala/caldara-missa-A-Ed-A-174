@@ -457,9 +457,250 @@ QuiTollisSopranoLyrics = \lyricmode {
   bis. %206 finis
 }
 
+CumSanctoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #260
+    \mvTr c'1\fE^\tutti
+    e2 g
+    e2. e4
+    d2 d
+    e4. e8 d2
+    e4 e d d %265
+    c h r2
+    c1
+    c2 c
+    h4 a g f
+    e c d e %270
+    f g a h
+    c2. h8 a
+    h2. a8([ g)]
+    a1
+    g %275
+    r4 g h c
+    d2 fis,
+    g4 h c d
+    e d c a
+    h g e'2~ %280
+    e4 a, d2~
+    d4 g, c2~
+    c h
+    c4 e g f
+    e1 %285
+    d4 c h a
+    g c2 h4
+    a h c d
+    e2. d8[ c]
+    d2. c8[ h] %290
+    c1
+    h4 d g, a
+    h1
+    a
+    g %295
+    R1*5 %300
+    c1
+    c2 c
+    h4 a g f
+    e c d e
+    f g a h %305
+    c2. h8 a
+    h2. a8([ g)]
+    a1
+    g4 d' e f!
+    g2. f4 %310
+    e2 f~
+    f e~
+    e4 d d2~
+    d4 c c2
+    h1 %315
+    a
+    r4 a c d
+    e2 gis,
+    a4 c d e
+    f e d h %320
+    a c d a
+    h2 c~
+    c4 h8[ a] h2
+    c4 e g f
+    e d c a %325
+    h2 c4 d
+    e1
+    a,4( h c d)
+    g,2 c
+    d2. c8[ b] %330
+    c2. b8[ a]
+    b1
+    a2. g4(
+    f g) a2
+    g1 %335
+    f
+    R1*4 %340
+    c'1
+    c2 c
+    h4 a g f
+    e c d e
+    f g a h %345
+    c2. h8 a
+    h2. a8([ g)]
+    a1
+    g
+    r4 g h c %350
+    d2 fis,
+    g4 h c d
+    e d c a
+    h g e'2~
+    e4 d \once \tieDashed d2~ %355
+    d4^\critnote c c2~
+    c4 c h2^\critnote
+    c1
+    r2 e
+    d4 c h a %360
+    g e f g
+    a h c d
+    e c e( g)
+    e1
+    r2 g,~ %365
+    g4 c c h
+    a( h c d)
+    g,2 e'
+    d2. c8[ h]
+    c2. h8[ a] %370
+    h2 c
+    c h
+    r c
+    h4 a g f
+    e c c'2~ %375
+    c h
+    e1
+    d4 c h a
+    g2 c~
+    c h %380
+    c d
+    e d
+    c1\fermata \bar "|." %383 finis
+  }
+}
 
+CumSanctoSopranoLyrics = \lyricmode {
+  Cum %260
+  San -- cto
+  Spi -- ri --
+  tu in
+  glo -- ri -- a
+  De -- i Pa -- tris, %265
+  a -- men,
+  cum
+  San -- cto
+  Spi -- ri -- tu in
+  glo -- _ _ _ %270
+  _ _ _ _
+  _ ri -- a
+  De -- i __
+  Pa --
+  tris, %275
+  a -- _ _
+  _ men,
+  a -- _ _ _
+  _ _ _ _
+  _ _ _ %280
+  _ _
+  _ _
+  _
+  men, a -- _ _
+  _ %285
+  _ _ _ _
+  _ _ _
+  _ _ _ _
+  _ _
+  _ _ %290
+  _
+  _ _ _ _
+  men,
+  a --
+  men, %295
 
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+  cum %301
+  San -- cto
+  Spi -- ri -- tu in
+  glo -- _ _ _
+  _ _ _ _ %305
+  _ ri -- a
+  De -- i __
+  Pa --
+  tris, a -- _ _
+  _ _ %310
+  _ _
+  _
+  _ _
+  _ men,
+  a -- %315
+  men,
+  a -- _ _
+  _ men,
+  a -- _ _ _
+  _ _ _ _ %320
+  _ _ _ _
+  men, a --
+  _ _
+  men, a -- _ _
+  _ _ _ _ %325
+  _ _ _
+  men,
+  a --
+  men, a --
+  _ _ %330
+  _ _
+  _
+  men, a --
+  men,
+  a -- %335
+  men,
+
+  cum %341
+  San -- cto
+  Spi -- ri -- tu in
+  glo -- _ _ _
+  _ _ _ _ %345
+  _ ri -- a
+  De -- i __
+  Pa --
+  tris,
+  a -- _ _ %350
+  _ men,
+  a -- _ _ _
+  _ _ _ _
+  _ men, a --
+  _ _ %355
+  men, a --
+  _ _
+  men,
+  in
+  glo -- _ _ _ %360
+  _ _ _ _
+  _ _ _ _
+  _ _ ri --
+  a
+  De -- %365
+  i Pa -- tris,
+  a --
+  men, a --
+  _ _
+  _ _ %370
+  _ men,
+  a -- men,
+  a --
+  _ _ _ _
+  _ _ _ %375
+  men,
+  a --
+  _ _ _ _
+  \xE men, a --
+  _ %380
+  \x men, a --
+  men, a --
+  men. %383 finis
+}
 
 
 % Cre -- do in u -- num De -- um,

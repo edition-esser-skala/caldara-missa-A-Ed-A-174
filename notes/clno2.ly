@@ -93,3 +93,75 @@ GloriaClarinoII = {
     e2.\fermata \bar "||" %46 finis
   }
 }
+
+CumSanctoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoCumSancto
+      \set Score.currentBarNumber = #260
+    r4 g'\fE c e
+    c g c e
+    c2. c4
+    g2 r4 g
+    c_\critnote c, g'2
+    c4_\critnote e d g, %265
+    g g r2
+    R1*30 %296
+    r2 e'~
+    e d~
+    d c4 g
+    d'2 g, %300
+    c4 g c f
+    e2. d8 c
+    g2. g4
+    c2 r
+    R1*4 %308
+    r4 g c d
+    e2. d4 %310
+    c2 r
+    R1*10 %321
+    r2 g
+    d' g,
+    c2. c4
+    c2 e, %325
+    g2. g4
+    c1
+    R1*11 %338
+    r4 g g g
+    d' e f d %340
+    e e8 d c4 g
+    c1
+    g
+    c
+    R1*9 %353
+    r2 e~
+    e d~ %355
+    d c
+    g2. g4
+    c1
+    c2 c
+    g r4 g %360
+    e2 r
+    R1*2
+    r4 g c e
+    d c d2 %365
+    e2. c4
+    c2. g4
+    c2 r
+    R1
+    r2 c %370
+    g c
+    g2. g4
+    e2 r
+    R1
+    r2 c'~ %375
+    c g4 g
+    e2 r
+    R1
+    r2 c'~
+    c g4 g %380
+    c2 d
+    e d
+    e1\fermata \bar "|." %383 finis
+  }
+}

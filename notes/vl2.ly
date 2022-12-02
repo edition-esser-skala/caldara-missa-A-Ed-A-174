@@ -347,3 +347,116 @@ QuoniamViolinoII = {
     f2 r\fermata \bar "||" %259 finis
   }
 }
+
+CumSanctoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoCumSancto
+      \set Score.currentBarNumber = #260
+    c4\fE e g e
+    c e8 f g4 e'
+    e c c c
+    h4. h8 h4 d
+    g,4. a8 h4 h
+    c e d d %265
+    c h r2
+    R1*8 %274
+    g1 %275
+    g2 g
+    fis4 e d c
+    h g a h
+    c d e fis
+    g2. f8 e %280
+    f2. e8 d
+    e2. d8 c
+    d1
+    c
+    r4 c e f %285
+    g2 h,
+    c4 e f! g
+    a g f d
+    c2 a'~
+    a4 d, g2~ %290
+    g fis
+    g4 d h c
+    d1
+    a'4 g fis e
+    d g2 fis4 %295
+    e fis g a
+    d,2 g
+    a2. g8 f!
+    g2. f8 e
+    f1 %300
+    e4 c e a
+    g1
+    g
+    r4 e2 d4
+    c2 f %305
+    e1
+    R1*9 %315
+    a1
+    a2 a
+    gis4 fis e d
+    c a h c
+    d e f! g! %320
+    a2. g8 f
+    g2. f8 e
+    f1
+    e
+    r4 c e f %325
+    g2 h,
+    c4 e f g
+    a g f d
+    e c a'2~
+    a4 d, g2~ %330
+    g4 c, f2~
+    f e
+    f4 a c b
+    a g f2
+    g4 f e d %335
+    c f2 e4
+    d e f g
+    c,2 a'4 f
+    g2. f8 e
+    f1 %340
+    e4 g e d
+    c2 g'4 a
+    d,1
+    e
+    R1*4 %348
+    g1
+    g2 g %350
+    fis4 e d c
+    h g a h
+    c d e fis
+    g2. f8 e
+    f2. e8 d %355
+    e2. d8 c
+    d1
+    c4 e g f
+    e2 g
+    g r4 d %360
+    e1
+    R1*2
+    r4 c e g
+    d2 g~ %365
+    g4 e f g
+    a g f d
+    e c a'2~
+    a4 d, g2~
+    g4 c, f2~ %370
+    f e
+    d1
+    e
+    R
+    r2 e %375
+    f d
+    e r
+    R1
+    r2 e
+    a g4 f %380
+    e2 g
+    g1
+    g\fermata \bar "|." %383 finis
+  }
+}
