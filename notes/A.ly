@@ -657,3 +657,114 @@ CumSanctoAltoLyrics = \lyricmode {
 
   men. %383 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoCredo
+    R2.*8 %8
+    \mvTr g'4\fE^\tutti g8 g a a
+    g4 g r %10
+    r8 g g g g g
+    g4 g8 g g g
+    g4 g8 g g([ fis)]
+    g4 r r
+    R2. %15
+    r4 g g
+    g g8 g g g
+    g4 g8 g g g
+    g8. g16 g4 r
+    R2. %20
+    g4. g8 g g
+    f4 f8 f d f
+    e4 e r
+    R2.
+    r8 e g e a f %25
+    d e d4. d8
+    e4 r r
+    R2.*8 %35
+    r8 \mvTr e\fE^\tuttiE e e e4
+    e8 e e e e8. e16
+    e4 e a
+    fis fis8 fis gis4
+    a a( gis) %40
+    a r r
+    R2.
+    r4 \mvTr a4.\pE^\solo d,8
+    cis4 d e
+    f fis g %45
+    gis a gis
+    a gis a8 e
+    f e f4 fis
+    g8([ fis)] g4 r
+    r a4. g!8 %50
+    f2.~
+    f8[ e16 f] g8[ f e d]
+    e4 e8 d16([ c)] d8. d16
+    c4 r r
+    R2. %55
+    \mvTr g'4\fE^\tutti g a
+    g r8 g g g
+    g g g g g4
+    g8 g g([ fis)] g4
+    g g8([ fis g f?)] %60
+    e4 r8 c d4
+    e8 c c4.( h8)
+    c c d2
+    e r4
+    R2.*4 %68
+    R2.\fermata \bar "||" %69 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Cre -- do in u -- num %9
+  De -- um, %10
+  Pa -- trem o -- mni -- po --
+  ten -- tem, fa -- cto -- rem
+  coe -- li et ter --
+  rae,
+  %15
+  vi -- si --
+  bi -- li -- um o -- mni --
+  um et in -- vi -- si --
+  bi -- li -- um.
+  %20
+  Et in u -- num
+  Do -- mi -- num Je -- sum
+  Chri -- stum,
+
+  Fi -- li -- um De -- i %25
+  u -- ni -- ge -- ni --
+  tum.
+
+  De -- um de De -- %36
+  o, lu -- men de lu -- mi --
+  ne, De -- um
+  ve -- rum de De --
+  o ve -- %40
+  ro.
+
+  Ge -- ni -- %43
+  tum non, non
+  fa -- _ _ %45
+  _ _ _
+  _ ctum, con -- sub --
+  stan -- ti -- a -- lem
+  Pa -- tri,
+  per quem %50
+  o --
+  _
+  _ mni -- a __ fa -- cta
+  sunt.
+  %55
+  Qui pro -- pter
+  nos, nos ho -- mi --
+  nes et pro -- pter no --
+  stram sa -- lu -- tem
+  de -- scen -- %60
+  dit, de -- scen --
+  dit, de -- scen --
+  dit de coe --
+  lis. %64 finis
+}

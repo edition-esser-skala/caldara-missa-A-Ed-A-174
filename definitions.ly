@@ -20,6 +20,8 @@ tempoQuiTollis = \tempoMarkup "Adagio"
 tempoQuoniam = \tempoMarkup "Allegro"
 tempoCumSancto = \tempoMarkup "Alla breve"
 
+tempoCredo = \tempoMarkup "Allegro"
+
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

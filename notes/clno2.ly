@@ -165,3 +165,47 @@ CumSanctoClarinoII = {
     e1\fermata \bar "|." %383 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    R2.*8 %8
+    e'4\fE e8 e f f
+    e4 e r %10
+    r8 e d d e d
+    e4 d8 d e d
+    c g c g g c
+    c4 r r
+    R2. %15
+    r4 g g
+    g g8 g c c
+    g4 r r
+    e'8 c16 d e8 e c e
+    d g, d' d g, d' %20
+    c4 r r
+    r8 d d d d d
+    g,4 r r
+    R2.
+    r8 c c c c c %25
+    g c g g g g
+    e4 r r
+    R2.*8 %35
+    r8 e\fE e e e4
+    e8 e e e e4
+    e r r
+    R2.*17 %55
+    e'4\fE e8 e f f
+    e c16 d e4 r8_\critnote d
+    e e d d e4
+    d8 e c4 d
+    R2.*3 %62
+    r8 c[ g g] g g16 g
+    e4 r r
+    R2. %65
+    e'8 c16 d e8 e c e
+    d g, d' d g, d'
+    c[ c c e,] g g16 g
+    e2.\fermata \bar "||" %69 finis
+  }
+}

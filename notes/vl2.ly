@@ -460,3 +460,65 @@ CumSanctoViolinoII = {
     g\fermata \bar "|." %383 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    e'8\fE c16 d e8 e c e
+    d h16 c d8 d h d
+    c e16 f g8 g e g
+    f d16 e f8 f d f
+    e e16 e g g e e c c h h %5
+    a c d e f8 e d c
+    h16 d e f g8 f e d
+    e16 g a h c8 e,^\critnote d h'
+    c c,16 d e8 c f d
+    e c h a g f %10
+    e e' h c16 d e8 d
+    e e h c16 d e8 d
+    e d e d e c
+    h g16 a h8 h g h
+    a fis16 g a8 a fis a %15
+    g h16 c d8 h16 c d8 h16 c
+    d8 d d d e e
+    d d d c d h
+    e4 e r
+    R2. %20
+    e8 c16 d e8 e c e
+    d h16 c d8 d h d
+    c c,16 d e8 e c e
+    d h16 c d8 d h d
+    c e' g e c f %25
+    d e d4. d8
+    c c16 d e8 e c e
+    d h16 c d8 d h d
+    c4 r r
+    R2.*4 %33
+    c8\fE a16 h c8 c a c
+    h gis16 a h8 h gis h %35
+    a c gis h c4
+    h8 h c h c4
+    h a8 a a a
+    a a a a d d
+    c c16 h a8 a gis4 %40
+    a r r
+    R2.*12 %53
+    e'8\fE c16 d e8 e c e
+    d h16 c d8 d h d %55
+    c c16 d e8 e f4
+    e8 c16 d e8 e h d
+    e c h c16 d e8 c
+    d e c4 h8 d
+    e[ e d c] h a16 h %60
+    c8 e d c h a
+    g c h a g f
+    e c' c c c h
+    e c16 d e8 e c e
+    d h16 c d8 d h d
+    c4 r8 c, c c
+    g'4 r8 g, g g
+    c e e e d d
+    e2.\fermata \bar "||"
+  }
+}

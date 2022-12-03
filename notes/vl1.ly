@@ -512,3 +512,65 @@ CumSanctoViolinoI = {
     c1\fermata \bar "|." %383 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    g''8\fE e16 f g8 g e g
+    f d16 e f8 f d f
+    e c16 d e8 e c e
+    d h16 c d8 d h d
+    c16 c e e g g e e c c h h %5
+    a c d e f8 e d c
+    h16 d e f g8 f e d
+    e16 g a h c8 e, d h'
+    c e,16 f g8 e a f
+    g e d c h a %10
+    g e'16 f g8 g g g
+    g16 a g a g8 g g g
+    g16 a g a g8 g g fis
+    g h,16 c d8 d h d
+    c a16 h c8 c a c %15
+    h g16 a h8 g'16 a h8 g16 a
+    h8 h h h c c
+    h g g g g g
+    g4 g r
+    R2. %20
+    g8 e16 f g8 g e g
+    f d16 e f8 f d f
+    e e,16 f g8 g e g
+    f d16 e f8 f d f
+    e g' c, e a, d %25
+    h c d,4 h'
+    c8 e16 f g8 g e g
+    f d16 e f8 f d f
+    e4 r r
+    R2.*4 %33
+    e8\fE c16 d e8 e c e
+    d h16 c d8 d h d %35
+    c e e e e16 f e f
+    e8 e e e e16 f e f
+    e8 e, e' c16 d e8 a
+    fis fis fis fis gis gis
+    a e16 d c4 h %40
+    a r r
+    R2.*12 %53
+    g'8\fE e16 f g8 g e g
+    f d16 e f8 f d f %55
+    e16 c e g c8 g a4
+    g8 e16 f g8 g g16 a g a
+    g8 g g g g16 a g a
+    g8 g g fis g4
+    c8 g g fis g f %60
+    e[ g g g] g a16 h
+    c8 c, h a g f
+    e g' a a g4
+    g8 e16 f g8 g e g
+    f d16 e f8 f d f %65
+    e4 r8 c, c c
+    g'4 r8 g, g g
+    c c' c c c h
+    c2.\fermata \bar "||" %69 finis
+  }
+}
