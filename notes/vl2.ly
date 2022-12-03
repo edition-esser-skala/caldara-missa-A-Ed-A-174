@@ -510,7 +510,7 @@ CredoViolinoII = {
     e8 c16 d e8 e h d
     e c h c16 d e8 c
     d e c4 h8 d
-    e[ e d c] h a16 h %60
+    e[ e d c] h a16 h %60www
     c8 e d c h a
     g c h a g f
     e c' c c c h
@@ -520,5 +520,24 @@ CredoViolinoII = {
     g'4 r8 g, g g
     c e e e d d
     e2.\fermata \bar "||"
+  }
+}
+
+EtIncarnatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #70
+    r4 c'\fE a f
+    f2 g
+    g es
+    f4 g as4. as8
+    g2 f
+    b, c %75
+    r4 e!2 e4
+    f2 f
+    f f~
+    f4 es d es
+    es4. d8 es2\fermata \bar "||" %80 finis
   }
 }

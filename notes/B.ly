@@ -802,3 +802,36 @@ CredoBassoLyrics = \lyricmode {
   dit de coe --
   lis. %64 finis
 }
+
+EtIncarnatusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoEtIncarnatus
+      \set Score.currentBarNumber = #70
+    r2 r4 \mvTr f\fE^\tutti
+    d b es2~
+    es4 c as' as
+    as g f4. f8
+    f4 es des des8 des
+    es2 as, %75
+    r4 c2 c4
+    f f es4. es8
+    des4 des d2
+    es b~
+    b4 b es,2\fermata \bar "||" %80 finis
+  }
+}
+
+EtIncarnatusBassoLyrics = \lyricmode {
+  Et %70
+  in -- car -- na --
+  _ _ tus
+  est de Spi -- ri --
+  tu, de Spi -- ri -- tu
+  San -- cto %75
+  ex Ma --
+  ri -- a Vir -- gi --
+  ne, et ho --
+  mo fa --
+  ctus est. %80 finis
+}

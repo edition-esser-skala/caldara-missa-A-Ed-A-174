@@ -21,6 +21,7 @@ tempoQuoniam = \tempoMarkup "Allegro"
 tempoCumSancto = \tempoMarkup "Alla breve"
 
 tempoCredo = \tempoMarkup "Allegro"
+tempoEtIncarnatus = \tempoMarkup "Adagio"
 
 
 \include "notes/clno1.ly"
