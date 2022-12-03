@@ -801,3 +801,68 @@ EtIncarnatusAltoLyrics = \lyricmode {
   mo, ho -- mo
   fa -- ctus est. %80 finis
 }
+
+CrucifixusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 3/2 \autoBeamOff \tempoCrucifixus
+      \set Score.currentBarNumber = #81
+    \mvTr c1.\pE^\solo
+    es
+    as
+    as
+    g2. f4 es g %85
+    f2 b, f'4( g)
+    as2. as4 g f
+    e1.
+    f2 c c
+    des1. %90
+    d
+    es
+    e
+    f2 as c
+    d,!1. %95
+    es2 ges b
+    c,1.
+    des2 des des
+    d1.
+    es %100
+    e
+    f2 as as
+    h,1.
+    c4 d es f g2
+    c,4 d es2. d4 %105
+    c1.
+    R1.*2
+    R1.\fermata \bar "||" %109 finis
+  }
+}
+
+CrucifixusAltoLyrics = \lyricmode {
+  Cru -- %81
+  ci --
+  fi --
+  xus
+  e -- ti -- am pro %85
+  no -- bis sub
+  Pon -- ti -- o Pi --
+  la --
+  to, pas -- sus,
+  pas -- %90
+  _
+  _
+  _
+  _ _ sus,
+  pas -- %95
+  _ _ sus,
+  pas --
+  sus, pas -- sus,
+  pas --
+  sus, %100
+  pas --
+  sus, pas -- sus,
+  pas --
+  _ _ _ _ sus
+  et se -- pul -- tus %105
+  est. %106 finis
+}

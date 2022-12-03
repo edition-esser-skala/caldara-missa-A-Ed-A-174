@@ -1231,3 +1231,72 @@ EtIncarnatusBassFigures = \figuremode {
   \bo <9 [5-]>4 \bc <8 [\t]> <5 3> <6 4->
   <5 \t> <\t 3> <[5-]>2 %80 finis
 }
+
+CrucifixusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 3/2 \tempoCrucifixus
+      \set Score.currentBarNumber = #81
+    \mvTr c2\p-\solo c c
+    c c c
+    c c c
+    d d d
+    es es es %85
+    b b b
+    h h h
+    b b b
+    as as as
+    b b b %90
+    as as as
+    g g g
+    c c c
+    f f f
+    as as as %95
+    ges ges ges
+    ges ges ges
+    f f f
+    b, b b
+    es es es %100
+    c c c
+    f f f
+    f f f
+    es2. d4 c2
+    as' g g, %105
+    c c c
+    c1.
+    c
+    c\fermata \bar "||" %109 finis
+  }
+}
+
+CrucifixusBassFigures = \figuremode {
+  r1. %81
+  r
+  <6->
+  <6 5->
+  r %85
+  <5 4>2 <\t 3>1
+  <7-> <6>4 <5>
+  <4! 2>1.
+  <6>
+  <_-> %90
+  <4! 2>
+  <6>
+  <_!>
+  <_->
+  <4! 2> %95
+  <6>
+  <4 2->
+  <6- _->
+  <7- _!>
+  <_-> %100
+  <7 [5!] _!>
+  <_->
+  <4! 2>
+  <6>
+  r2 <4> <_!> %105
+  r1.
+  <6- 4>
+  <7! 2>
+  <8 _!> %109 finis
+}

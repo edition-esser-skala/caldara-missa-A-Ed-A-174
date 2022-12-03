@@ -541,3 +541,40 @@ EtIncarnatusViolinoII = {
     es4. d8 es2\fermata \bar "||" %80 finis
   }
 }
+
+CrucifixusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 3/2 \tempoCrucifixus
+      \set Score.currentBarNumber = #81
+    es2\p es es
+    g g g
+    es es es
+    f f f
+    g g g %85
+    f f f
+    d d d
+    c c c
+    c f as
+    f f f %90
+    f f f
+    es g g
+    g g g
+    c, f as
+    f f f %95
+    ges es es
+    es es es
+    f f f
+    f f f
+    b, es es %100
+    g! g g
+    f f f
+    d d d
+    es es es
+    d4 c c2 h
+    c es es
+    f1.
+    d
+    e\fermata \bar "||"
+  }
+}
