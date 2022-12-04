@@ -578,3 +578,114 @@ CrucifixusViolinoII = {
     e\fermata \bar "||"
   }
 }
+
+EtResurrexitViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #110
+    c'16\fE h c d e c d h c h c d e c d h
+    c h c d e8 d e c16 e g8 c,16 e
+    f c c f f c c f e c c e e c c e
+    d f f d c e e c h d d h a c c a
+    h g' g h, a8^\critnote fis' g g, g g
+    e4 f! g a %115
+    h4. c16 d c8 h r4
+    r a8 a g g g g'
+    e c4 h8 c4 r
+    c16 h c d e c d h c8 c' d, h'
+    c,4 r r2 %120
+    c16 h c d e c d h c4 r
+    r2 h16 a h c d h c a
+    h4 r r2
+    R1
+    c4-!\fE h-! a-! g-! %125
+    c16 h c d e c d h c h c d e c d h
+    c8 g g g g e f f
+    e4. e8 d4 r
+    d'16 cis d e f d e cis d8 a a a
+    d16 d f f c c e e h h d d h h d d %130
+    e8 e d4\trill c16 h c d e c d h
+    c d e f g e f d e8 e d4\trill
+    e r r2
+    R1*2 %135
+    r2 g,16\fE fis g a h g a fis
+    g a h c d h c a h4 r
+    R1
+    h16 a h c d h c a h4 r
+    R1 %140
+    r2 fis16 e fis g a fis g e
+    fis4 r r2
+    R1
+    r2 d'16\fE cis d e fis d e cis
+    d8 fis4 d8 d8. d16 d8 fis %145
+    d8. d16 d8 d cis cis, cis d-\critnote
+    e g g g fis fis a g
+    e8. e16 e8 a a a a a
+    a8. a16 g8 g fis2
+    e4 r e'16 dis e fis g e fis dis %150
+    e h e4 dis8 e4 r
+    R1*3
+    g,16\fE fis g a h g a fis g8 h4 h8 %155
+    c4 h c16 h c d e c d h
+    c8 e4 e8^\critnote f4 e
+    c16 h c d e c d h c8 c, r4
+    \tempoMortuorum r gis'4. a8 h4~ \noBreak
+    h a gis2\fermata \bar "||" %160
+    \time 3/4 \tempoEtVitam R2.*5 %165
+    c,2.
+    g'4 g g
+    e c g'
+    e c g'~
+    g fis8 e fis4 %170
+    g d8 e f d
+    e g c, d e c
+    g'4. f8 e c
+    g'4. f8 e c
+    f d g4. f8 %175
+    e4 g8 f e f
+    g4 d d
+    e g8 f e d
+    e4 g8 f e d
+    c4 d8 e d c %180
+    h4 d d
+    d2.
+    d
+    R2.*3 %186
+    e2.
+    a4 a a
+    gis e a
+    gis e a %190
+    fis d g~
+    g fis8 e fis4
+    g d8 e f d
+    e4 g8 f e4
+    d g8 f e4 %195
+    d g8 f e f16 g
+    f4 g8 f e d
+    e4 g8 f e4
+    d g r
+    g8 f e4 g %200
+    g4. f8 e d
+    e2 d4
+    d d2
+    d4 e2
+    e4 e2 %205
+    e4 e a8 g!
+    fis4 h8 a g4
+    a fis2
+    e2.
+    R2.*3 %212
+    c2.
+    g'4 g g
+    e c g' %215
+    f-\critnote d g
+    e f d
+    e g8 f e d
+    e4 g8 f e d
+    e4 g g %220
+    g a g8 f
+    e4 e d
+    e2.\fermata \bar "|." %223 finis
+  }
+}

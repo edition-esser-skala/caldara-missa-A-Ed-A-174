@@ -835,3 +835,176 @@ EtIncarnatusBassoLyrics = \lyricmode {
   mo fa --
   ctus est. %80 finis
 }
+
+EtResurrexitBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #110
+    r8 \mvDl c'\fE^\tuttiE c g e c r4
+    r8 c' c g e c c' c16 c
+    c2 c4 r8 c
+    d([ h)] c c, g' g, r4
+    R1
+    c4 d e( f) %115
+    g4. a16([ h)] c8 g r4
+    r d8 d h'4 c8 h
+    c a16 a f8([ g)] c,4 r
+    R1*6 %124
+    \mvDl c'4\fE^\tuttiE h a g %125
+    c8 c c g e c r g
+    c4 b a gis
+    a4. a8 d4 r
+    r2 r8 d4 d8
+    h g c4 g g'8 f %130
+    e c g4 c r
+    R1*5 %136
+    r2 r8 \mvTr h'4\pE^\solo h8
+    c h c h16([ a)] h8 a16 g a4
+    g r r2
+    r8 fis4 e16([ d)] g4.( fis16[ e)] %140
+    fis8 fis g fis16([ e)] fis4 r
+    r8 fis4 fis8 g fis e4
+    d8 fis h g a d, a4
+    d r r2
+    r8 \mvTr d4\fE^\tuttiE fis8 g8. g16 d4 %145
+    g8 fis h4 a r
+    r8 g g a h4 fis8 g
+    a8. a16 a8 a, d4 c!
+    h8. h16 h8 ais h4. h8
+    e,4 r r2 %150
+    R1*4
+    r2 r8 \mvTr g'4\fE^\tuttiE g8 %155
+    g4 g r2
+    r8 c,4 c8 c4 c
+    c'8. c16 c8 g c c, r4
+    \tempoMortuorum r e2 e4 \noBreak
+    a,2 e'\fermata \bar "||" %160
+    \time 3/4 \tempoEtVitam R2.*15 %175
+    c2.
+    g'4 g g
+    e c g'
+    e c g'~
+    g fis8([ e)] fis4 %180
+    g( h8[ a)] g4
+    fis8[( a d, e fis d)]
+    g4 h8([ a g fis)]
+    g2 e4
+    d g8[ f! e d] %185
+    c4. h8[ c a]
+    e'2.
+    f
+    e2 r4
+    R2.*8 %197
+    c2.
+    g'4 g g
+    e c g' %200
+    e c g'~
+    g fis8([ e)] fis4
+    g( h8[ a g fis)]
+    g4 e gis
+    a( c8[ h a gis)] %205
+    a4 a8[ g f e]
+    dis4 h e
+    a, h2
+    e2.
+    R %210
+    c
+    g'4 g g
+    e c c'
+    g2.
+    c,4 r c'~ %215
+    c h8([ a)] h4
+    c f, g
+    e c g'(
+    e) c r
+    c'( e8[ d c h)] %220
+    c4 f,( g)
+    c, c( g)
+    c2.\fermata \bar "|." %223 finis
+  }
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+  Et re -- sur -- re -- xit, %110
+  et re -- sur -- re -- xit ter -- ti -- a
+  di -- e se --
+  cun -- dum Scri -- ptu -- ras,
+
+  et a -- scen -- %115
+  dit in coe -- lum,
+  se -- det, se -- det ad
+  dex -- te -- ram Pa -- tris.
+
+  Iu -- di -- ca -- re, %125
+  iu -- di -- ca -- re vi -- vos et
+  mor -- _ _ _
+  _ tu -- os,
+  cu -- ius
+  re -- gni non, non, non, non %130
+  e -- rit fi -- nis.
+
+  Qui ex %137
+  Pa -- tre Fi -- li -- o -- que pro -- ce --
+  dit.
+  Qui cum Pa -- %140
+  tre et Fi -- li -- o
+  si -- mul ad -- o -- ra --
+  tur et con -- glo -- ri -- fi -- ca --
+  tur:
+  Qui lo -- cu -- tus est %145
+  per Pro -- phe -- tas.
+  Et u -- nam san -- ctam ca --
+  tho -- li -- cam et a -- po --
+  sto -- li -- cam Ec -- cle -- si --
+  am. %150
+
+  Et ex -- %155
+  pe -- cto,
+  et ex -- pe -- cto
+  re -- sur -- re -- cti -- o -- nem
+  mor -- tu --
+  o -- rum, %160
+
+  et %176
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri sae --
+  cu -- li, %180
+  a -- men,
+  a --
+  men, a --
+  men, a --
+  _ _ %185
+  _ _
+  _
+  _
+  men,
+
+  et %198
+  vi -- tam ven --
+  tu -- ri, ven -- %200
+  tu -- ri sae --
+  cu -- li,
+  a --
+  men, a -- men,
+  a -- %205
+  men, a --
+  _ _ _
+  men, a --
+  men,
+  %210
+  et
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu --
+  ri sae -- %215
+  cu -- li,
+  a -- _ _
+  _ men, a --
+  men,
+  a -- %220
+  men, a --
+  men, a --
+  men. %223 finis
+}

@@ -866,3 +866,196 @@ CrucifixusAltoLyrics = \lyricmode {
   et se -- pul -- tus %105
   est. %106 finis
 }
+
+EtResurrexitAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #110
+    r8 \mvDl g'\fE^\tuttiE g g g g r4
+    r8 g g g g g g g16 g
+    a2 g4 r8 g
+    f8([^\critnote g)] g g g g r4
+    R1
+    e4( f!) g( a) %115
+    g g8 g g g r4
+    r a8 a g4 g8 g
+    g a16 a a8([ g)] g4 r
+    R1*6 %124
+    \mvDl c4\fE^\tuttiE h a g %125
+    g8 g g g g g r g
+    g2. f8[ g]
+    a4. a8 a4 r
+    r2 r8 f4 f8
+    f g g4 g g8 g %130
+    g g g4 g r
+    R1
+    \mvTr g4.\pE^\solo c,8 a'8. a16 g4
+    fis8 g g fis g d4 e8
+    f2~ f8[ e] a4 %135
+    d,8( g4 fis8) g4 r
+    R1*8 %144
+    r8 \mvTr fis4\fE^\tutti fis8 g8. g16 fis4 %145
+    h8 a a([ gis)] a cis, cis d
+    e2 d4 r8 g
+    e8. e16 e8 e fis4 a
+    a8. a16 g8 g fis4. fis8
+    e4 r r2 %150
+    R1*4
+    r2 r8 \mvTr g4\fE^\tuttiE g8 %155
+    g4 g r2
+    r8 g4 g8 a4 g
+    g8. g16 g8 g g g r4
+    \tempoMortuorum r gis2 gis4 \noBreak
+    e2 e\fermata \bar "||" %160
+    \time 3/4 \tempoEtVitam R2.*5 %165
+    c2.
+    g'4 g g
+    e c g'
+    e c g'~
+    g fis8([ e)] fis4 %170
+    g d8[ e f d]
+    e[ g c, d e c]
+    g'4. f8[ e c]
+    g'4. f8[ e c]
+    f[ d] g4. f8 %175
+    e4 g8([ f e f)]
+    g4 d d
+    e g8[ f e d]
+    e4 g8[ f e d]
+    c4 d8[ e d c] %180
+    h4 d d
+    d2.
+    d
+    R2.*3 %186
+    e2.
+    a4 a a
+    gis e a
+    gis e a %190
+    fis d g~
+    g fis8([ e]) fis4
+    g d8[ e f d]
+    e4 g8[ f] e4
+    d g8[ f] e4 %195
+    d g8[ f e g]
+    f4 g8[ f e d]
+    e4 g8[ f] e4
+    d g r
+    g8[( f] e4) g %200
+    g4. f8[ e d]
+    e2 d4
+    d d2
+    d4 e2^\critnote
+    e4 e2 %205
+    e4 e a8[ g!]
+    fis4 h8[ a] g4
+    a fis2
+    e2.
+    R2.*3 %212
+    c2.
+    g'4 g g
+    e c g'( %215
+    f) d g
+    e( f) d
+    e g8[ f e d]
+    e4 g8[ f e d]
+    e4 g g %220
+    g a g8([ f)]
+    e4 e( d)
+    \mvTrr e2.\fermata^\critnote \bar "|." %223 finis
+  }
+}
+
+EtResurrexitAltoLyrics = \lyricmode {
+  Et re -- sur -- re -- xit, %110
+  et re -- sur -- re -- xit ter -- ti -- a
+  di -- e se --
+  cun -- dum Scri -- ptu -- ras,
+
+  et __ a -- %115
+  scen -- dit in coe -- lum,
+  se -- det, se -- det ad
+  dex -- te -- ram Pa -- tris.
+
+  Iu -- di -- ca -- re, %125
+  iu -- di -- ca -- re vi -- vos et
+  mor -- _
+  _ tu -- os,
+  cu -- ius
+  re -- gni non, non, non, non %130
+  e -- rit fi -- nis.
+
+  Et in Spi -- ri -- tum
+  San -- ctum, Do -- mi -- num et vi --
+  vi -- fi -- %135
+  can -- tem.
+
+  Qui lo -- cu -- tus est %145
+  per Pro -- phe -- tas. Et u -- nam
+  san -- ctam ca --
+  tho -- li -- cam et a -- po --
+  sto -- li -- cam Ec -- cle -- si --
+  am. %150
+
+  Et ex -- %155
+  pe -- cto,
+  et ex -- pe -- cto
+  re -- sur -- re -- cti -- o -- nem
+  mor -- tu --
+  o -- rum, %160
+
+  et %166
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri sae --
+  cu -- li, %170
+  a -- _
+  _
+  _ _
+  _ _
+  _ _ _ %175
+  men, a --
+  men, a -- men,
+  a -- _
+  _ _
+  _ _ %180
+  men, a -- men,
+  a --
+  men,
+
+  et %187
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri, ven -- %190
+  tu -- ri sae --
+  cu -- li,
+  a -- _
+  _ _ _
+  _ _ _ %195
+  _ _
+  _ _
+  men, a -- _
+  _ men,
+  a -- \xE men, %200
+  a -- _
+  _ _
+  \x men, a --
+  men, a --
+  men, a -- %205
+  men, a -- _
+  _ _ _
+  men, a --
+  men,
+
+  et %213
+  vi -- tam ven --
+  tu -- ri sae -- %215
+  cu -- li,
+  a -- men,
+  a -- _
+  _ _
+  men, a -- men, %220
+  a -- men, a --
+  men, a --
+  men. %223 finis
+}

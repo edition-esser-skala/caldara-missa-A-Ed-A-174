@@ -189,3 +189,59 @@ CredoTimpani = {
     c2.\fermata \bar "||"
   }
 }
+
+EtResurrexitTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #110
+    r8 c\fE c g c4 r
+    r8 c16 c c8 g c4 r
+    c r c r
+    g c g r
+    R1*2 %115
+    r8 g g g c g r4
+    r2 r8 g c g
+    c c16 c g8 g c4 r
+    R1*5 %123
+    r2 c8\fE c16 c c c c c
+    c4 r r2 %125
+    c8 c c g c4 r
+    R1*3
+    g8 g c4 g g8 g16 g %130
+    c8 c g4 c r
+    R1*23 % %154
+    r2 r8 g\fE g g %155
+    g4-\critnote g r2
+    r8 c c c c4 c
+    c8. c16 c8 g c4 r
+    \tempoMortuorum R1 \noBreak
+    R\fermata \bar "||" %160
+    \time 3/4 \tempoEtVitam R2.*15 %175
+    r4 c c
+    g g g
+    c r g
+    c r r
+    R2.*4 %183
+    g4 r r
+    g r r %185
+    c r r
+    R2.*11 %197
+    c4 r r
+    g r r
+    c r g %200
+    c r r
+    R2.*11 %212
+    c4 r c
+    g g g
+    c r r %215
+    R2.
+    c4 g2
+    c4 r r
+    c r g
+    c r r %220
+    c r g
+    c r g
+    c r r\fermata \bar "|." %223 finis
+  }
+}

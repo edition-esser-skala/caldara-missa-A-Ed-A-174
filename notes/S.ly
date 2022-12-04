@@ -846,29 +846,223 @@ EtIncarnatusSopranoLyrics = \lyricmode {
   fa -- ctus est. %80 finis
 }
 
-% Et re -- sur -- re -- xit ter -- ti -- a di -- e
-% se -- cun -- dum Scri -- ptu -- ras,
-% et a -- scen -- dit in coe -- lum,
-% se -- det ad dex -- te -- ram Pa -- tris.
-% Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a
-% iu -- di -- ca -- re vi -- vos et mor -- tu -- os,
-% cu -- ius re -- gni non e -- rit fi -- nis.
-% Et in Spi -- ri -- tum San -- ctum,
-% Do -- mi -- num et vi -- vi -- fi -- can -- tem,
-% qui ex Pa -- tre Fi -- li -- o -- que pro -- ce -- dit.
-% Qui cum Pa -- tre et Fi -- li -- o
-% si -- mul ad -- o -- ra -- tur et con -- glo -- ri -- fi -- ca -- tur:
-% qui lo -- cu -- tus est per Pro -- phe -- tas.
-% Et u -- nam san -- ctam ca -- tho -- li -- cam
-% et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
-% Con -- fi -- te -- or u -- num ba -- ptis -- ma
-% in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
-% Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum,
-% et vi -- tam ven -- tu -- ri sae -- cu -- li.
-% A -- men.
+EtResurrexitSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #110
+    r8 \mvDl c'\fE^\tutti c d e e r4
+    r8 c c d e e c c16 c
+    c2 c4 r8 c
+    f4 e8 e d d r4
+    r2 r8 g,4 g8
+    g a4 h c d8~ %115
+    d[ e16 f] g8 f e d g, g
+    f'2. e8 d
+    e e16 e d4 c r
+    R1
+    r8 \mvTr e\pE^\solo c a gis a d c16([ h)] %120
+    c4 r r8 a a h16([ c)]
+    d8 c16([ h)] c8. c16 h4 r
+    r8 g g a16([ h)] c8 g c16[ g c d]
+    e[ c e f] g[ f e d] e8 d16 c r4
+    \mvDl c\fE^\tuttiE h a g %125
+    e'8 e e d e e r d
+    c2 cis4 \once \tieDashed d~
+    d cis d r
+    r2 r8 a4 a8
+    h c16([ d)] e4 d h8 h %130
+    c c c([ h)] c4 r
+    R1*13 %144
+    r8 \mvTr d4\fE^\tuttiE a8 h8. h16 a4 %145
+    h8 d^\critnote d4 cis8 e, e fis
+    g2 fis4 r8 d'
+    cis8. cis16 cis8 cis d4 d
+    dis8. dis16 e8 e e4. dis8
+    e4 r r2 %150
+    r r8 \mvTr h\pE^\solo g fis16 e
+    c'4 c8 h16([ a)] h8 g d'4~
+    d8 h e4. c8 a d
+    h a16([ g)] a4 g r
+    r2 r8 \mvTr d'4\fE^\tuttiE d8 %155
+    e4 d r2
+    r8 c4 c8 c4 c
+    e8. e16 e8 d e e r4
+    \tempoMortuorum r e2 d4 \noBreak
+    c2 h\fermata \bar "||" %160
+    \time 3/4 \tempoEtVitam g!2. \noBreak
+    c4 c c
+    h g c
+    h g c~
+    c h8([ a]) h4 %165
+    c e8[ d] c4
+    h8[ d g, a h g]
+    c4 e8[ d c h]
+    c4 e8[ d c h]
+    a2. %170
+    h8[ g h c d h]
+    e4 r e
+    d h e
+    d( h) e
+    d2 d4 %175
+    c r e
+    d8[ f h, c d h]
+    e2 r4
+    R2.*2 %180
+    g,2.
+    d'4 d d
+    h g d'
+    h g c~
+    c h8([ a]) h4 %185
+    h e, a~
+    a gis8[ fis] gis4
+    a4. h8[ c d]
+    e4. d8[ c a]
+    h4 e8[ d c h] %190
+    a4 d8[ c h g]
+    a2.
+    h8[ a h c d h]
+    c4 e8[ d] c4
+    r h c %195
+    d h e
+    d2.
+    g,
+    r4 g8[ a h g]
+    c4 e8[ d c h] %200
+    c4 r g
+    c c c
+    h g d'
+    h e h
+    c a e' %205
+    c a c
+    h fis' g
+    fis8 e e4( dis)
+    e2.
+    R2.*2 %211
+    g,2.
+    c4 c c
+    h d h
+    c2 e4 %215
+    d4. d8 d4
+    c2 h4
+    c e8[ d c h]
+    c4 e8[ d c h]
+    c4 g'8[ f e d] %220
+    e4 d2
+    c4 c( h)
+    c2.\fermata \bar "|." %223 finis
+  }
+}
+
+EtResurrexitSopranoLyrics = \lyricmode {
+  Et re -- sur -- re -- xit, %110
+  et re -- sur -- re -- xit ter -- ti -- a
+  di -- e se --
+  cun -- dum Scri -- ptu -- ras,
+  et a --
+  scen -- _ _ _ _ %115
+  dit in coe -- lum, se -- det,
+  se -- det ad
+  dex -- te -- ram Pa -- tris.
+
+  Et i -- te -- rum ven -- tu -- rus %120
+  est, ven -- tu -- rus
+  est cum glo -- ri -- a,
+  ven -- tu -- rus est cum glo --
+  _ _ _ ri -- a
+  iu -- di -- ca -- re, %125
+  iu -- di -- ca -- re vi -- vos et
+  mor -- _ _
+  tu -- os,
+  cu -- ius
+  re -- gni non, non, non, non %130
+  e -- rit fi -- nis.
+
+  Qui lo -- cu -- tus est %145
+  per Pro -- phe -- tas. Et u -- nam
+  san -- ctam ca --
+  tho -- li -- cam et a -- po --
+  sto -- li -- cam Ec -- cle -- si --
+  am. %150
+  Con -- fi -- te -- or
+  u -- num ba -- ptis -- ma in __
+  re -- mis -- si -- o -- nem
+  pec -- ca -- to -- rum.
+  Et ex -- %155
+  pe -- cto,
+  et ex -- pe -- cto
+  re -- sur -- re -- cti -- o -- nem
+  mor -- tu --
+  o -- rum, %160
+  et
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri sae --
+  cu -- li, %165
+  a -- _ _
+  _
+  _ _
+  _ _
+  men, %170
+  a --
+  men, ven --
+  tu -- ri, ven --
+  tu -- ri
+  sae -- cu -- %175
+  li, a --
+  _
+  men,
+
+  et %181
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri sae --
+  cu -- li, %185
+  a -- _ _
+  _ men,
+  a -- _
+  _ _
+  _ _ %190
+  _ _
+  men,
+  a --
+  _ _ men,
+  a -- men, %195
+  a -- _ _
+  _
+  men,
+  a --
+  _ _ %200
+  men, et
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri, et
+  vi -- tam ven -- %205
+  tu -- ri, ven --
+  tu -- ri sae --
+  cu -- li, a --
+  men,
+
+  et %212
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri %215
+  sae -- cu -- li,
+  a -- men,
+  a -- _
+  _ _
+  _ _ %220
+  men, a --
+  men, a --
+  men. %223 finis
+  % et vi -- tam ven -- tu -- ri, ven -- tu -- ri sae -- cu -- li, a -- men,
+  % et vi -- tam ven -- tu -- ri, ven -- tu -- ri sae -- cu -- li, a -- men,
+  % et vi -- tam ven -- tu -- ri, ven -- tu -- ri sae -- cu -- li, a -- men,
+  % et vi -- tam ven -- tu -- ri, ven -- tu -- ri sae -- cu -- li, a -- men,
+  % et vi -- tam ven -- tu -- ri, ven -- tu -- ri sae -- cu -- li, a -- men,
+}
 
 
-% ## Sanctus
 
 % San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
 % Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.

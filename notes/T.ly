@@ -763,3 +763,196 @@ EtIncarnatusTenoreLyrics = \lyricmode {
   mo, ho -- mo
   fa -- ctus est. %80 finis
 }
+
+EtResurrexitTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #110
+    r8 \mvDl e\fE^\tutti e d c c r4
+    r8 e e h c c e e16 e
+    f2 e4 r8 e
+    d4 c8 c h h r4
+    R1
+    c8 a d([ h] e[ c f d] %115
+    h4) h8 c16([ d)] c8 h r4
+    r d8 d d4 c8 d
+    c c16 c c8([ h)] c4 r
+    R1*6 %124
+    \mvDl c4\fE^\tuttiE h a g %125
+    c8 c c h c c r h
+    e2. f4
+    e4. e8 d4 r
+    r2 r8 d4 d8
+    d h c4 h d8 d %130
+    e e d4 e r
+    R1*5 %136
+    r2 r8 \mvTr d4\pE^\solo d8
+    e d e d16([ c)] d8 c16 h c4
+    h r r8 h4 a16([ g)]
+    d'2~ d8[ cis16 h] cis4 %140
+    d8 a h a16([ g)] a4 r
+    r8 a4 d8 h a g4
+    fis8 a d h cis d d([ cis)]
+    d4 r r2
+    r8 \mvTr d4\fE^\tuttiE d8 d8. d16 d4 %145
+    d8 d d4 e r
+    r8 h h cis d h^\critnote r h
+    a8. a16 a8 a a4 a
+    a8. a16 h8 e h4. h8
+    h4 r r2 %150
+    R1*4
+    r2 r8 \mvTr h4\fE^\tuttiE h8 %155
+    c4 h r2
+    r8 e4 e8 f!4 e
+    c8. c16 c8 h c c r4
+    \tempoMortuorum r h2 h4 \noBreak
+    h( a) gis2\fermata \bar "||" %160
+    \time 3/4 \tempoEtVitam R2.*10 %170
+    g2.
+    c4 c c
+    h g c
+    h g c~
+    c h8([ a)] h4 %175
+    c e8[ d] c4
+    h8[ d g, a h g]
+    c4 e8[ d c h]
+    c4 e8[ d c h]
+    a2. %180
+    g4 d'8[ c] h4
+    a8[ c fis, g a fis]
+    g4 d'8[ c h a]
+    h4 c8[ d] e4
+    f! d g8[ f] %185
+    e4. d8[ e c]
+    h2.
+    a4 c( a)
+    h2.
+    R2.*3 %192
+    g2.
+    c4 c c
+    h g c %195
+    h g c~
+    c h8([ a)] h4
+    c e8[ d] c4
+    h8[ d h c] d([ h)]
+    r4 c d %200
+    e4. d8[ c h]
+    a2.
+    h4 d8[( c h a]
+    h4) gis e'
+    c e8[ d c h] %205
+    c4. h8 a4
+    h2.
+    c4 h2
+    h2.
+    g %210
+    c4 c c
+    h d h
+    g g e'
+    d d d
+    c c c( %215
+    a4.) a8 g4
+    g( a g)
+    g g g
+    g g r
+    c2( d4) %220
+    c c( h)
+    c g2
+    \mvTrr g2.\fermata^\critnote \bar "|." %223 finis
+  }
+}
+
+EtResurrexitTenoreLyrics = \lyricmode {
+  Et re -- sur -- re -- xit, %110
+  et re -- sur -- re -- xit ter -- ti -- a
+  di -- e se --
+  cun -- dum Scri -- ptu -- ras,
+
+  et a -- scen -- %115
+  dit in coe -- lum,
+  se -- det, se -- det ad
+  dex -- te -- ram Pa -- tris.
+
+  Iu -- di -- ca -- re, %125
+  iu -- di -- ca -- re vi -- vos et
+  mor -- _
+  _ tu -- os,
+  cu -- ius
+  re -- gni non, non, non, non %130
+  e -- rit fi -- nis.
+
+  Qui ex %137
+  Pa -- tre Fi -- li -- o -- que pro -- ce --
+  dit. Qui cum
+  Pa -- _ tre %140
+  et Fi -- li -- o
+  si -- mul ad -- o -- ra --
+  tur et con -- glo -- ri -- fi -- ca --
+  tur:
+  Qui lo -- cu -- tus est %145
+  per Pro -- phe -- tas.
+  Et u -- nam san -- ctam ca --
+  tho -- li -- cam et a -- po --
+  sto -- li -- cam Ec -- cle -- si --
+  am. %150
+
+  Et ex -- %155
+  pe -- cto,
+  et ex -- pe -- cto
+  re -- sur -- re -- cti -- o -- nem
+  mor -- tu --
+  o -- rum, %160
+
+  et %171
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri sae --
+  cu -- li, %175
+  a -- _ _
+  _
+  _ _
+  _ _
+  _ %180
+  men, a -- _
+  _
+  men, a --
+  _ _ _
+  _ _ _ %185
+  _ _
+  _
+  men, a --
+  men,
+
+  et %193
+  vi -- tam ven --
+  tu -- ri, ven -- %195
+  tu -- ri sae --
+  cu -- li,
+  a -- _ _
+  _ men,
+  a -- men, %200
+  a -- _
+  _
+  men, a --
+  men, a --
+  men, a -- %205
+  _ _ _
+  _
+  men, a --
+  men,
+  et %210
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri, et
+  vi -- tam ven --
+  tu -- ri sae -- %215
+  cu -- li,
+  a --
+  men, a -- men,
+  a -- men,
+  a -- %220
+  men, a --
+  men, a --
+  men. %223 finis
+}

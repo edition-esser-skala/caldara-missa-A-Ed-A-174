@@ -589,48 +589,115 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Crucifixus"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %     page-count = #1
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \CrucifixusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \CrucifixusViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \CrucifixusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \CrucifixusAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \CrucifixusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \CrucifixusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 120 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Crucifixus"
+    \subsection "Et resurrexit"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #22
-      system-system-spacing.minimum-distance = #22
-      systems-per-page = #3
-      page-count = #1
-    }
     \score {
       <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \partCombine #'(0 . 10) \EtResurrexitClarinoI \EtResurrexitClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \EtResurrexitTimpani
+        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \CrucifixusViolinoI
+              \EtResurrexitViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \CrucifixusViolinoII
+              \EtResurrexitViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \CrucifixusAlto }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \EtResurrexitSoprano }
           }
-          \new Lyrics \lyricsto Alto \CrucifixusAltoLyrics
+          \new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \EtResurrexitAlto }
+          }
+          \new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \EtResurrexitTenore }
+          }
+          \new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \EtResurrexitBasso }
+          }
+          \new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \CrucifixusOrgano
+            \EtResurrexitOrgano
           }
         >>
-        \new FiguredBass { \CrucifixusBassFigures }
+        \new FiguredBass { \EtResurrexitBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 120 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }
