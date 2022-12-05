@@ -1055,19 +1055,135 @@ EtResurrexitSopranoLyrics = \lyricmode {
   men, a --
   men, a --
   men. %223 finis
-  % et vi -- tam ven -- tu -- ri, ven -- tu -- ri sae -- cu -- li, a -- men,
-  % et vi -- tam ven -- tu -- ri, ven -- tu -- ri sae -- cu -- li, a -- men,
-  % et vi -- tam ven -- tu -- ri, ven -- tu -- ri sae -- cu -- li, a -- men,
-  % et vi -- tam ven -- tu -- ri, ven -- tu -- ri sae -- cu -- li, a -- men,
-  % et vi -- tam ven -- tu -- ri, ven -- tu -- ri sae -- cu -- li, a -- men,
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \autoBeamOff \tempoSanctus
+    r2 \mvTr g'\fE^\tuttiE c
+    c h r
+    r d f
+    f e r
+    \once \tieDashed c1.~ %5
+    c
+    cis
+    d
+    e
+    d %10
+    h
+    c2 r r
+    c2. c4 c2
+    c1 b2~
+    b a2. a4 \noBreak %15
+    g1.\fermata \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      \mvDl c4\fE^\tuttiE d8 c16([ d)] e8 e r4 \noBreak
+    R1
+    c4 d8 c16([ d)] e8 e c c16 c
+    c8 h r4 r8 c f4~ %20
+    f8[ d16 b] e4~ e8[ c16 a] d4~
+    d8[ h16 g] c4 a8[^\critnote d h e]
+    c[ f] d[ g16 f] e8[ d] c c16 c
+    c8 h r4 r2
+    r r8 g[ h d] %25
+    f!2~ f8[ e] e d \noBreak
+    c2 h\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      R1*6 %33
+    \mvTr c1\fE^\tutti
+    h %35
+    c
+    d
+    e
+    d
+    g,2 c~ %40
+    c h
+    c e4 e
+    e2 d4 c
+    h a g a8[ h]
+    c1~ %45
+    c2 h
+    c1
+    d
+    e
+    f %50
+    e2 d4 \once \tieDashed c~
+    c2 h
+    c4 d e2
+    d1
+    c %55
+    R1*3
+    r4 h( c) d
+    e f8[ e] d4 c %60
+    h2 c
+    h c~
+    c h4( a)
+    h1
+    c\breve*1/2\fermata \bar "||"
+  }
+}
 
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- %5
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+  _
+  _
+  _
+  _ %10
+  _
+  ctus
+  Do -- mi -- nus
+  De -- us __
+  Sa -- ba -- %15
+  oth.
+  Ple -- ni sunt coe -- li,
 
+  ple -- ni sunt coe -- li, coe -- li et
+  ter -- ra glo -- _ %20
+  _ _
+  _ _
+  _ _ _ _ ri -- a
+  tu -- a,
+  glo -- %25
+  _ ri -- a
+  tu -- a.
+
+  O -- %34
+  san -- %35
+  na
+  in
+  ex --
+  cel --
+  sis, in __ %40
+  ex --
+  cel -- sis, ex --
+  cel -- _ _
+  _ _ _ _
+  _ %45
+  _
+  sis,
+  in
+  ex --
+  cel -- %50
+  _ _ _
+  _
+  _ _ _
+  _
+  sis, %55
+
+  \xE in __ \x ex -- %59
+  cel -- _ _ _ %60
+  _ _
+  sis, in __
+  ex --
+  cel --
+  sis. %65 finis
+}
 
 % ## Benedictus
 

@@ -1059,3 +1059,142 @@ EtResurrexitAltoLyrics = \lyricmode {
   men, a --
   men. %223 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \autoBeamOff \tempoSanctus
+    r2 \mvTr e\fE^\tuttiE e
+    e d r
+    r g g
+    g g r
+    \tieDashed g1.~ %5
+    g~
+    g
+    f
+    a~
+    a \tieSolid %10
+    g
+    g2 r r
+    g2. g4 g2
+    fis1 g2
+    g1 fis2 \noBreak %15
+    g1.\fermata \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      \mvDl g4\fE^\tuttiE g8 g g^\critnote g r4 \noBreak
+    R1
+    g4 g8 g g g g g16 g
+    g8 g r4 g a %20
+    f g e f
+    d e c8[ f d g]
+    e[ a] g4 e8[ g] g f16 e
+    d8 d r4 r2
+    R1 %25
+    r8 a'[ f g]~ g g e4 \noBreak
+    e2 e\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      \mvTr g1\fE^\tuttiE \noBreak
+    e
+    f %30
+    g
+    a
+    g
+    c,2 a'4 a4
+    a2 g4 f %35
+    e d c2~
+    c h
+    c d4 e
+    f d g f
+    e2 d4 c %40
+    d1
+    e2 g4 g
+    a1
+    d,2 g~
+    g fis %45
+    g d4 d
+    e1
+    d2 g~
+    g4 f e2
+    a g %50
+    g1
+    R1*2
+    g1
+    e %55
+    f
+    g
+    a
+    g
+    c,2 f4 f %60
+    f2 e
+    d e
+    d1~
+    d
+    e\breve*1/2\fermata \bar "||" %65 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- %5
+
+  _ %8
+  _
+  %10
+  _
+  ctus
+  Do -- mi -- nus
+  De -- us
+  Sa -- ba -- %15
+  oth.
+  Ple -- ni sunt coe -- li,
+
+  ple -- ni sunt coe -- li, coe -- li et
+  ter -- ra glo -- _ %20
+  _ _ _ _
+  _ _ _
+  _ _ _ _ ri -- a
+  tu -- a,
+  %25
+  glo -- ri -- a
+  tu -- a.
+  O --
+  san --
+  na %30
+  in
+  ex --
+  cel --
+  sis, in ex --
+  cel -- _ _ %35
+  _ _ _
+  _
+  sis, in ex --
+  cel -- _ _ _
+  _ _ _ %40
+  sis,
+  o -- san -- na
+  in
+  ex -- cel --
+  _ %45
+  sis, in ex --
+  cel --
+  sis, in __
+  ex -- cel --
+  _ _ %50
+  sis,
+
+  o -- %54
+  san -- %55
+  na
+  in
+  ex --
+  cel --
+  sis, in ex -- %60
+  cel -- _
+  _ _
+  _
+
+  sis. %65 finis
+}

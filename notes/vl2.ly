@@ -689,3 +689,76 @@ EtResurrexitViolinoII = {
     e2.\fermata \bar "|." %223 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoSanctus
+    r2 e\fE e
+    e g4 d g h^\critnote
+    d2 f d
+    d c r
+    c c c %5
+    c c c
+    cis cis cis
+    d d d
+    cis cis cis
+    c c c %10
+    g g g
+    g r r
+    g2. g4 g2
+    fis1 g2~
+    g g fis \noBreak %15
+    g1.\fermata \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      c4\fE d8 c16 d e c e g c c, e g \noBreak
+    a g f e d c h a g8 c4 h8
+    c4 d8 c16 d e c e g c8 c
+    c h16 a g f e d e4. c16 a %20
+    d4. b16 g c4. a16 f
+    h4. g16 e a8 f h g
+    c a d h e d c d16 e
+    d8^\critnote d r4 g8 fis16 e d c h a
+    g8 fis16 e d c h a g8 g' h d %25
+    f! f, a d g, g-\critnote h4~ \noBreak
+    h8 e, a4 gis2\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      g1\fE \noBreak
+    e
+    f %30
+    g
+    a
+    g
+    c,2 a'4 a
+    a2 g4 f %35
+    e d c2~
+    c h
+    c d4 e
+    f d g f
+    e2 d4 c %40
+    d1
+    e2 g4 g
+    a1
+    d,2 g~
+    g fis %45
+    g d4 d
+    e1
+    d2 g~
+    g4 f e2
+    a g %50
+    g1
+    R1*2
+    g1
+    e %55
+    f
+    g
+    a
+    g
+    c,2 f4 f %60
+    f2^\critnote e
+    d e
+    d1~
+    d
+    e\breve*1/2\fermata \bar "||" %65 finis
+  }
+}

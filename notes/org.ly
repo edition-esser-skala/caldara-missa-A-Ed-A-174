@@ -1560,3 +1560,155 @@ EtResurrexitBassFigures = \figuremode {
   r2.
   r %223 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/2 \tempoSanctus
+    r2 \mvTr c\fE-\tutti c
+    g' g, r
+    r g' g
+    c c, r
+    c'1. %5
+    b
+    a
+    gis
+    g
+    fis %10
+    f
+    e2 r r
+    es1.
+    d1 g,2~
+    g d'1 \noBreak %15
+    g,1.\fermata \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      \mvTr c8\fE-\tutti c' h a16 g c8 c, r c-\solo \noBreak
+    f f f f f e f g
+    c,-\tutti c' h a16 g c8 c, e d16 c
+    g'8 g, r g' c4. a16 f %20
+    b4. g16 e a4. f16 d
+    g4. e16 c f8 d g e
+    a f h g c g e d16 c
+    g'8 g, r4 g'8-\soloE g, r4
+    g'8-! fis16-! e-! d-! c-! h-! a-! g4 r %25
+    r8 d'-\tuttiE f h c4 gis \noBreak
+    a2 e\fermata \bar "||"
+    \clef treble \time 2/2 \tempoOsanna \newSpacingSection
+      \mvTr g'1\fE-\tuttiE \noBreak
+    e
+    f %30
+    g
+    a
+    g
+    << {
+      c
+      h %35
+      c
+      d
+      e
+      d
+      g,2 c %40
+    } \\ {
+      c, a'~
+      a g4 f %35
+      e d c2~
+      c h
+      c d4 e
+      f d g f
+      e2 d4 c %40
+    } >>
+    \clef bass g1
+    e
+    f
+    g
+    a %45
+    g
+    c,2 a'~
+    a g4 f
+    e d c2~
+    c h %50
+    c d4 e
+    f d g f
+    e2 d4 c
+    g1
+    c %55
+    d
+    e
+    \once \tieDashed f~
+    f
+    e2 f %60
+    g1~
+    g
+    g,~
+    g
+    c\breve*1/2\fermata \bar "||" %65 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1.
+  \bo <[6] 4>2 \bc <[5] 3>1
+  r2 <7>1
+  \bo <9 [4]>2 \bc <8 [3]>1
+  r1. %5
+  <4 2>
+  <7 _+>
+  <7>
+  <4+ 2>
+  <6 5-> %10
+  <4 2>
+  <6>
+  q
+  <7 _+>1 <_->2
+  r <4> <_+> %15
+  <[_!]>1.
+  r4 <[6]>2.
+  <5>4 <6>8 <5> <4 2> <6> \bo <[6 5]>4
+  r <6>2 \bc <[6 \l]>4
+  <4>8 <3>4. <5>4 <6> %20
+  <5> <6> <5> <6>
+  <5 _!> <6>2.
+  r4 \bo <[6]>2 <6>4
+  <4>8 \bc <[3]>2..
+  r1 %25
+  r4 <6>8 <6 5> <4> <3> <6> <5>
+  <9>4 <8> <_+>2
+  r1
+  r
+  r %30
+  r
+  r
+  r
+  r
+  r %35
+  r
+  r
+  r
+  r
+  r %40
+  <4>2 <3>
+  <6>1
+  <7>2 <6>4 <5>
+  r1
+  <7>2 <6\\> %45
+  <4> <3>
+  r1
+  <4 2>
+  <6>
+  <4 2>2 <[6 5]> %50
+  r1
+  <6 5>
+  <[6]>
+  <4>2 <3>
+  r1 %55
+  <9>2 <8>4 <7>
+  <5>2 <6>
+  \bo <[5]> <6>4 \bc <[5]>
+  <4 2>1
+  <6> %60
+  <[7] 3>2 <6 4>
+  <5 3> <6 4>
+  <4>1
+  <3>
+  r %65 finis
+}

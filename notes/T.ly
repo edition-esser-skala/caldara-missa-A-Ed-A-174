@@ -956,3 +956,106 @@ EtResurrexitTenoreLyrics = \lyricmode {
   men, a --
   men. %223 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/2 \autoBeamOff \tempoSanctus
+    r2 \mvTr g\fE^\tutti g
+    g g r
+    r h d
+    d c r
+    \tieDashed e1.~ %5
+    e~
+    e \tieSolid
+    h
+    cis
+    d~ %10
+    d
+    e2 r r
+    g,2. g4 g2
+    a1 b4( c)
+    d1 d2 \noBreak %15
+    d1.\fermata \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      \mvDl e4\fE^\tutti d8 d c c r4 \noBreak
+    R1
+    e4 d8 d c c c d16 e
+    d8 d r d e4. c16[ a] %20
+    d4. b16[ g] c4. a16[ f]
+    h4. g16[ e] a8[ f h g]
+    c[ a d h] c[ h] c g16 g
+    g8 g r4 r2
+    R1 %25
+    r8 f![( a d] c8.) c16 h4 \noBreak
+    h( a) gis2\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      R1*19 %46
+    \mvTr c1\fE^\tuttiE
+    h
+    c
+    d %50
+    e
+    d
+    g,2 c4 c
+    c2 h
+    c4. d8 e2~ %55
+    e d4 c
+    h g c2~
+    c d4 c
+    h g a h
+    c2 a4 a %60
+    g1~
+    g~
+    g~
+    g
+    g\breve*1/2\fermata \bar "||" %65 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- %5
+
+  _ %8
+  _
+  _ %10
+
+  ctus
+  Do -- mi -- nus
+  De -- us __
+  Sa -- ba -- %15
+  oth.
+  Ple -- ni sunt coe -- li,
+
+  ple -- ni sunt coe -- li, \xE coe -- li \x et
+  ter -- ra glo -- _ _ %20
+  _ _ _ _
+  _ _ _
+  _ _ _ ri -- a
+  tu -- a,
+  %25
+  glo -- ri -- a
+  tu -- a.
+
+  O -- %47
+  san --
+  na
+  in %50
+  ex --
+  cel --
+  sis, in ex --
+  cel -- _
+  _ _ _ %55
+  _ _
+  _ _ _
+  _ _
+  _ _ _ _
+  sis, in ex -- %60
+  cel --
+
+  sis. %65 finis
+}

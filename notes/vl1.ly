@@ -748,3 +748,70 @@ EtResurrexitViolinoI = {
     c2.\fermata \bar "|." %223 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoSanctus
+    r2 g'\fE c
+    c h4 g h d
+    f2 d' f,
+    f e r
+    e e e %5
+    e e e
+    e e e
+    f f f
+    e e e
+    d d d %10
+    h h h
+    c r r
+    c2. c4 c2
+    c1 b2~
+    b a1 \noBreak %15
+    g1.\fermata \bar "||"
+    \time 4/4 \tempoPleni \newSpacingSection
+      c4\fE d8 c16 d e c^\critnote e g c c, e g \noBreak
+    a g f e d c h a g8 c16 d d4\trill
+    c d8 c16 d e c e g c8 c
+    c h16 a g f e d e8 c f4~ %20
+    f8 d16 b e4~ e8 c16 a d4~
+    d8 h16 g c4~ c16 a d c h d e d
+    c e f e d f g f e g a h c8 c
+    c h r4 g8 fis16 e d c h a
+    g8 fis16 e d c h a g8 g' h d %25
+    f!2~ f8 e e d \noBreak
+    c2 h\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      R1*6 %33
+    c1\fE
+    h %35
+    c
+    d
+    e
+    d
+    g,2 c~ %40
+    c h
+    c e4 e
+    e2 d4 c
+    h a g a8 h
+    c1~ %45
+    c2 h
+    c1
+    d
+    e
+    f %50
+    e2 d4 \once \tieDashed c~
+    c2 h
+    c4 d e2
+    d1
+    c %55
+    R1*3
+    r4 h c d
+    e f8 e d4 c %60
+    h2 c
+    h c~
+    c h4 a
+    h1
+    c\breve*1/2\fermata \bar "||" %65 finis
+  }
+}
