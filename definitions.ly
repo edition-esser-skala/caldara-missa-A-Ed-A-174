@@ -7,6 +7,14 @@
 % \include "articulate_ees.ly"
 
 
+markOsannaDaCapo = {
+  \once \override Score.RehearsalMark.break-visibility =
+    #begin-of-line-invisible
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna da capo"
+}
+
+
 tempoKyrie = \tempoMarkup "Allegro"
   tempoKyrieB = \tempoMarkup "Adagio"
   tempoKyrieC = \tempoMarkup "Presto"
@@ -30,6 +38,7 @@ tempoEtResurrexit = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Adagio"
   tempoPleni = \tempoMarkup "Allegro"
   tempoOsanna = \tempoMarkup "Osanna · Alla breve"
+tempoBenedictus = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"

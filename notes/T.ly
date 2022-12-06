@@ -1059,3 +1059,102 @@ SanctusTenoreLyrics = \lyricmode {
 
   sis. %65 finis
 }
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 3/8 \autoBeamOff \tempoBenedictus
+      \set Score.currentBarNumber = #66
+    \mvTr c8([\pE^\solo b16 a)] g([ f)]
+    d'8 \appoggiatura d c4
+    f,8([ g)] a
+    b g c
+    a f r %70
+    r r c'
+    a([ h)] c
+    r r c
+    c([ h16 a h8)]
+    c4 g8 %75
+    a16[ g a d c d]
+    h[ a h e d e]
+    c[ h c f e f]
+    d[ c d g f g]
+    e d c8 r %80
+    R4.*4
+    r8 r a %85
+    a g16(([ a)] b([ g)]
+    a[ c d8 h16 d]
+    e8[ c16 e f d]
+    \tuplet 3/2 8 { e[ d c] } d8 h
+    c4 r8 %90
+    R4.*12 %102
+    c8([ b16 a)] g([ f)]
+    d'4 \appoggiatura d16 c8
+    b([ g')] b, %105
+    a16([ g)] f8 r
+    es'4.
+    es8 d c
+    d16 c d8 d
+    d c b %110
+    c16 b c8 c
+    c b a
+    b16 a b8 b
+    a16[ f d'8 b16 g]
+    c8[ a16 f b8]~ %115
+    b[ g b]
+    a[ f a]
+    b16[ a b c d8]
+    g,[ c b]
+    a[ c] f %120
+    f,16([ g)] g8. f16
+    f4 r8
+    R4.*6 %128
+    R4.\fermata \markOsannaDaCapo \bar "||" %129 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- %66
+  di -- ctus,
+  be -- ne --
+  di -- ctus, qui
+  ve -- nit, %70
+  qui
+  ve -- nit,
+  qui
+  ve --
+  nit in %75
+  no --
+  _
+  _
+  _
+  _ mi -- ne, %80
+
+  in %85
+  no -- mi -- ne
+  Do --
+  _
+  _ _ mi --
+  ni. %90
+
+  Be -- ne -- %103
+  di -- ctus,
+  be -- ne -- %105
+  di -- ctus
+  qui
+  ve -- nit in
+  no -- mi -- ne, in
+  no -- mi -- ne %110
+  Do -- mi -- ni, in
+  no -- mi -- ne
+  Do -- mi -- ni, in
+  no --
+  _ %115
+
+  _
+  _
+  _
+  _ mi -- %120
+  ne Do -- mi --
+  ni. %122 finis
+}

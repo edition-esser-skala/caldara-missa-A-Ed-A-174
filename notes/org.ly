@@ -1712,3 +1712,142 @@ SanctusBassFigures = \figuremode {
   <3>
   r %65 finis
 }
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/8 \tempoBenedictus
+      \set Score.currentBarNumber = #66
+    \mvTr f,8\pE-\soloE g a
+    b b' a
+    a, g f
+    g e' c
+    f8. f16 e d %70
+    c8 d e
+    f d e
+    e d c
+    d4 g,8
+    c d e %75
+    f f f
+    g g g
+    a a a
+    h h h
+    c c, a %80
+    b! b b
+    c c c
+    d d d
+    e e e
+    f a, f %85
+    c' c c
+    f d16 f g8
+    e16 g a8 h,
+    c f g
+    c,\fE d e %90
+    f f e
+    a h c
+    d h g
+    c c, h
+    c e g %95
+    c, e g
+    a g16 f e8
+    d c g
+    c d\pE e
+    f f e %100
+    d h g
+    c e c
+    f g a
+    b! b a
+    g e c %105
+    f f, g
+    a a a
+    r f' f
+    b, b b
+    b4 r8 %110
+    f' f f
+    f4 r8
+    c c c
+    f b,16 d es8
+    a,16 c d8 g,16 b %115
+    c8 c c
+    c c f,
+    g g' f
+    e e e
+    f c d %120
+    a b c
+    a'\fE b a
+    b b, b
+    h' c h
+    c c, c %125
+    a' f c'
+    a a, g
+    f b c
+    f,4.\fermata \markOsannaDaCapo \bar "||" %129 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r4. %66
+  r4 \bo <[6]>8
+  <6> \bc <[6]>4
+  <_->4.
+  r %70
+  r
+  r8 <6!> <[6]>
+  r <6!>4
+  <7>4 <_!>8
+  r4. %75
+  <9>8 <8> <6>
+  <9 _!> \bassFigureExtendersOn <8 _!> <6 _!> \bassFigureExtendersOff
+  <9!> <8> <[6]>
+  <9> <8> <[6]>
+  <9> <8> <6> %80
+  <9> <8> <[6]>
+  <9> <8> <[6]>
+  <9> <8> <[6]>
+  <9> <8> \bo <[6]>
+  <9> \bc <[6]>4 %85
+  \bo <[6] 4>8 \bc <[5] 3>4
+  r <_!>8
+  <[5!]>4 <5>8
+  r <6 5> <_!>
+  r4. %90
+  r4 <[6]>8
+  r4.
+  r4 <_!>8
+  r4 <[6]>8
+  r4 <_!>8 %95
+  r4 <_!>8
+  r4 <[6]>8
+  <6!>4 <_!>8
+  r4.
+  r4 \bo <[6]>8 %100
+  r4 <_!>8
+  r4 <7->8
+  r4.
+  r4 <6>8
+  r4 \bc <[7]>8 %105
+  r4.
+  <5->
+  r8 <6 4> <5 3>
+  r4.
+  r %110
+  r
+  r
+  \bo <[7]>
+  r
+  <5!> %115
+  \bc <[7]>
+  <6 4>
+  <5 3>
+  \bo <[6]>4 \bc <[5]>8
+  <9> <[6 4]>4 %120
+  r8 <6 5>4
+  \bo <[6 5-]>4 <6 5->8
+  r4.
+  <6 5>8 <_!> \bc <[6 5]>
+  r4. %125
+  <6>
+  q4 <[6]>8
+  r <6 5>4
+  r4. %129 finis
+}

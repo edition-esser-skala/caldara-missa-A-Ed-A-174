@@ -815,3 +815,65 @@ SanctusViolinoI = {
     c\breve*1/2\fermata \bar "||" %65 finis
   }
 }
+
+BenedictusViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \tempoBenedictus
+      \set Score.currentBarNumber = #66
+    R4.*2
+    r8 r f'\p
+    d g g,
+    a16 c f a g f %70
+    e d c8 r
+    r r g'
+    g,16 e f d e8
+    R4.
+    r8 r g'~ %75
+    g f a~
+    a g h~
+    h a c~
+    c h d
+    g,4 c,8~ %80
+    c b! d~
+    d c e~
+    e d f~
+    f e g~
+    g f r %85
+    R4.*4
+    g8\fE f16 e d c %90
+    a'4 g8
+    c,16 e d f e g
+    f8 d' f,
+    \tuplet 3/2 8 { e16 f g c,,[ d e] d e f }
+    e8 c' d %95
+    \tuplet 3/2 8 { e16 g f e[ d c] d c h }
+    c8 c' c,
+    \tuplet 3/2 8 { f16 e d e[ d c] d c h }
+    c4 r8
+    R4.*2 %101
+    c16\pE e g b! a g
+    a4 r8
+    R4.*2 %105
+    f,16 c a' f b g
+    c a f'8 f,
+    R4.
+    \tuplet 3/2 8 { d'16 c b d[ c b] } b'8
+    R4. %110
+    \tuplet 3/2 8 { c,16 b a c[ b a] } a'8
+    R4.
+    \tuplet 3/2 8 { b,16 a g b[ a g] } g'8
+    R4.*2 %115
+    \tuplet 3/2 8 { e16 f g g,[ f e] } c8
+    \tuplet 3/2 8 { f'16 g a c,[ b a] } f8
+    R4.*4 %121
+    \tuplet 3/2 8 { c'16[\fE d es] } d8 c
+    \tuplet 3/2 8 { d16 c b d[ c b] } b,8
+    \tuplet 3/2 8 { d'16[ e! f] } e8 d
+    \tuplet 3/2 8 { e16 d c e[ d c] } c,8 %125
+    f'16 c a' f g e
+    \tuplet 3/2 8 { f e d c[ b a] b a g }
+    \tuplet 3/2 8 { a[ g f] } g8 e
+    f4.\fermata \markOsannaDaCapo \bar "||" %129 finis
+  }
+}

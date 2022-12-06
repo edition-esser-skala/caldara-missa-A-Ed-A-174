@@ -1126,3 +1126,95 @@ SanctusBassoLyrics = \lyricmode {
 
   sis. %65 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/8 \autoBeamOff \tempoBenedictus
+      \set Score.currentBarNumber = #66
+    R4.*5 %70
+    \mvTr g'8([\pE^\solo f16 e)] d([ c)]
+    a'8 \appoggiatura a g4
+    c,8([ d)] e
+    f d g
+    e c r %75
+    R4.*4
+    r8 r c %80
+    d16[ c d g f g]
+    e[ d e a g a]
+    f[ e f b a b]
+    g[ f g c b c]
+    a g f8 f %85
+    f e16([ f)] g([ e)]
+    f8[ d16 f g8]
+    e16[ g a8 h,]
+    c[ f] g
+    c,4 r8 %90
+    R4.*8 %98
+    g'8([ f16 e)] d([ c)]
+    a'4 \appoggiatura a16 g8 %100
+    f([ d')] f,
+    e16([ d)] c8 r
+    R4.*4 %106
+    r8 c'4
+    c8 b a
+    b16 a b8 b
+    b a g %110
+    a16 g a8 a
+    a g f
+    g16 f g8 e
+    f[ b,16 d es8]
+    a,16[ c d8 g,16 b] %115
+    c8[ e g]
+    f[ c f]
+    g4 f8
+    e16[ d e f g8]~
+    g[ f16 e] d8 %120
+    a b c
+    f,4^\critnote r8
+    R4.*6 %128
+    R4.\fermata \markOsannaDaCapo \bar "||" %129 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  Be -- ne -- %71
+  di -- ctus,
+  be -- ne --
+  di -- ctus, qui
+  ve -- nit %75
+
+  in %80
+  no --
+  _
+  _
+  _
+  _ mi -- ne, in %85
+  no -- mi -- ne
+  Do --
+  _
+  _ mi --
+  ni. %90
+
+  Be -- ne -- %99
+  di -- ctus, %100
+  be -- ne --
+  di -- ctus,
+
+  qui %107
+  ve -- nit in
+  no -- mi -- ne, in
+  no -- mi -- ne %110
+  Do -- mi -- ni, in
+  no -- mi -- ne
+  Do -- mi -- ni, in
+  no --
+  _ %115
+  _
+  _
+  _ _
+  _
+  mi -- %120
+  ne Do -- mi --
+  ni. %122 finis
+}
