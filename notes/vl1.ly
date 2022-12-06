@@ -877,3 +877,66 @@ BenedictusViolinoIeII = {
     f4.\fermata \markOsannaDaCapo \bar "||" %129 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    r4 e'2\fE e4
+    d2 e4 g~
+    g8 g g4 f e8 d
+    cis4 d2 cis4
+    d f2 f4 %5
+    e c'2 h4
+    c2 g\p
+    g g
+    as d,
+    es es4 f %10
+    b,2 as~
+    as4 g8 as b2~
+    b es~
+    es4 d es2
+    g c, %15
+    d4 es2 d4
+    d2 c~
+    c4 h! c e!8\f e
+    d2 e
+    r4-\critnote h h2 %20
+    c4. c8 c4 h \noBreak
+    a2 g\fermata \bar "||"
+    \tempoDona \newSpacingSection R1*7 %29
+    r2 c8.\fE c16 c8 c %30
+    g a h c d4. h8
+    e4. c8 a16 h c a d8 c
+    h a g4 r c
+    h8 g c4. a8 d4~
+    d8 h g16 a h g c4. b8 %35
+    a b c d g, e a4~
+    a8 f b4. g8 e16 f g e
+    a c d e f8 e d c h a16 h
+    c2 r
+    R1 %40
+    r2 e8. e16 e8 e
+    a, h c d e4. c8
+    f4. d8 h16 c d h e8 d
+    c h a4. h16 c d8 c
+    h c16 d e8 d c h a4 %45
+    r e' dis8 h e4~
+    e8 c a16 h c a d8 c h a16 g
+    fis8 g4 fis8 g g d' c16 h
+    a8 fis h4. g8 c4~
+    c8 a fis16 g a fis h4. a16 h %50
+    c2 r
+    R1
+    c8. c16 c8 c f, g a b
+    c4. a8 d4. b8
+    g16 a b g c8 b a16 h c a d8 c %55
+    h16 c d h e8 d c16 d e c f8 e
+    d16 e f d g8 f e d c4
+    r2 r4 c
+    h8 g c4. a8 d4~
+    d8 h g16 a h g c8 d e4 %60
+    d8 e d4 e8 c c h
+    c4 r r2\fermata \bar "|." %62 finis
+  }
+}

@@ -53,7 +53,7 @@ KyrieClarinoI = {
     r4 r8 g e f g f16 e %95
     d8 e^\critnote f e16 d e4 r
     R1
-    r4 d8 d e f g f16 e
+    r4 d8 d e f g^\critnote f16 e
     d8 e d4 e8 e d4
     c r r2\fermata \bar "|." %100 finis
   }
@@ -326,5 +326,48 @@ SanctusClarinoI = {
     d~
     d \pd
     c\breve*1/2\fermata \bar "||" %65 finis
+  }
+}
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    r4 e'2\fE e4
+    d2 e4 r
+    R1*2
+    r4 f2 f4 %5
+    e d d2\trill
+    c r
+    R1*10 %17
+    r2 r4 e\fE
+    d2 c
+    R1*2 \noBreak %21
+    R1\fermata \bar "||"
+    \tempoDona \newSpacingSection
+      R1*10 %32
+    r8 d\fE d d e f g f16 e
+    d4 r r2
+    r8 d d d e4 r %35
+    R1*2
+    r2 \pa g8. g16 g8 g
+    c, d e f g4. e8
+    a4. f8 d16 e f d g8 f %40
+    e \pd r r4 r2
+    R1*5 %46
+    r2 r4 r8 g
+    \pa fis g4 fis8 \pd g2
+    R1
+    r2 \pa g8. g16 g8 g %50
+    c, d e f g4. e8
+    a4. f8 d16 e f d g8 f \pd
+    e4 r r2
+    R1*3 %56
+    r4 r8 g e f g f16 e
+    d8 e^\critnote f e16 d e4 r
+    R1
+    r4 d8 d e f g^\critnote f16 e %60
+    d8 e d4 e8 e d4
+    c r r2\fermata \bar "|." %62 finis
   }
 }

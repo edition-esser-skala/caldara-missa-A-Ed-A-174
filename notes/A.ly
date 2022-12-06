@@ -1198,3 +1198,124 @@ SanctusAltoLyrics = \lyricmode {
 
   sis. %65 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr g'2\fE^\tutti g4
+    g2 g4 g
+    g2 f4 e
+    e f e2
+    f4 f2 f4 %5
+    e d d2
+    e r
+    R1*4 %11
+    r2 r4 \mvTr b8\pE^\solo b
+    es8.([ f16)] es4 r8 es f([ g)]
+    as4. g16([ f)] g8.([ as16)] g4
+    r8 g c([ g)] as4. as8 %15
+    as4 g f f
+    f4. f8 es4 d
+    d2\trill c4 \mvTr g'8\fE^\tutti g
+    g2 g
+    r4 gis gis2 %20
+    e4 e fis g \noBreak
+    g( fis) g2\fermata \bar "||"
+    \tempoDona \newSpacingSection
+      R1*5 %27
+    \mvTr g8.\fE^\tuttiE g16 g8 g c,[ d e f]
+    g4. e8 a4. f8
+    d16[ e f d] g8[ f] e[ d] c4 %30
+    r g' fis8[ d] g4~
+    g8[ e] a4. fis8 d16[ e fis d]
+    g4. f8 e[ d] c4
+    r8 d e[( g]) c,4 f8[( a])
+    f([ e]) d4 e8[( f]) g[ f16 g] %35
+    a8[ g] f[ e16 d] c4 r
+    R1
+    r2 g'8. g16 g8 g
+    c,[ d e f] g4. e8
+    a4. f8 d16[ e f d] g8[ f] %40
+    e[ fis16 gis] a4 gis8 a4 gis8
+    a4 r8 a( gis) e r e
+    a4 f16[ g a f] d4 e16[ fis gis e]
+    a8[ g f e] d4. e16[ f]
+    g8[ f] e[ fis16 gis] a4 e8[( fis]) %45
+    g[( a]) h[( a16 g]) fis4 g~
+    g e8[( a]) a16[ fis g a] d,8[ e]
+    a,[ h] a4 h2
+    R1
+    r2 g'8. g16 g8 g %50
+    c,[ d e f] g4. e8
+    a4. f8 d16[ e f d] g8[ f]
+    e[ d] c[ d16 e] f4 f
+    e8[ c] f4 a8[ f] d4~
+    d8[ g] e16[ f g e] c4 f8[( e]) %55
+    d4 g8[ f] e4 a8[ g]
+    f4 g g8[ f] e[ d16 c]
+    d8[ e] f[ e16 d] e8[ f] g[ f16 e]
+    d4 e e f~
+    f g4. f8 e16[ f g a] %60
+    d,8[ g] g4 g8[( e] d4)
+    e r r2\fermata \bar "|." %62 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta mun --
+  di: Mi -- se -- %5
+  re -- re no --
+  bis.
+
+  A -- gnus %12
+  De -- i, qui tol --
+  lis pec -- ca -- ta,
+  qui tol -- lis pec -- %15
+  ca -- ta mun -- di:
+  Mi -- se -- re -- re
+  no -- bis. A -- gnus
+  De -- i,
+  qui tol -- %20
+  lis pec -- ca -- ta
+  mun -- di:
+
+  Do -- na no -- bis pa -- %28
+  _ _ _ _
+  _ _ _ cem, %30
+  da pa -- _
+  _ _ _
+  _ _ _ cem,
+  da pa -- cem, da __
+  pa -- cem, da __ pa -- %35
+  _ _ cem,
+
+  do -- na no -- bis
+  pa -- _ _
+  _ _ _ _ %40
+  _ _ _ _ _
+  cem, pa -- cem, da
+  pa -- _ _ _
+  _ _ _
+  _ _ cem, do -- %45
+  na __ pa -- cem, do --
+  na __ pa -- _
+  _ _ cem,
+
+  do -- na no -- bis %50
+  pa -- _ _
+  _ _ _ _
+  _ _ _ cem,
+  pa -- _ _ _
+  _ cem, da __ %55
+  pa -- _ _ _
+  _ cem, pa -- _
+  _ _ _ _
+  _ cem, do -- na __
+  pa -- _ _ %60
+  _ cem, pa --
+  cem. %62 finis
+}

@@ -322,3 +322,46 @@ SanctusClarinoII = {
     e\breve*1/2\fermata \bar "||" %65 finis
   }
 }
+
+AgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    r4 c'2\fE c4
+    g2 c4 r
+    R1*2
+    r4 d2 d4 %5
+    c4._\critnote c8 g4. g8
+    e2 r
+    R1*10 %17
+    r2 r4 c'\fE
+    g4. g8 e2
+    R1*2 \noBreak %21
+    R1\fermata \bar "||"
+    \tempoDona \newSpacingSection
+      R1*10 %32
+    r8 g\fE g g c c c c16 c
+    g4 r r2
+    r8 g g g c4 r %35
+    R1*2
+    r2 r8 g g g16 g
+    c8 g c d e c r c
+    c c d4 g, d'8 d16 d %40
+    c8 r r4 r2
+    R1*5 %46
+    r2 r4 r8 g
+    d' d d4 d2
+    R1
+    r2 r8 d d g, %50
+    g4 c g c
+    c d r8 g, g g
+    c4 r r2
+    R1*3 %56
+    r4 r8 d c d e d16 c
+    g8 c d c16 g c4 r
+    R1
+    r4 g8 g c d e d16 c %60
+    g8 g g4 g8 g g g16 g
+    g4 r r2\fermata \bar "|." %62 finis
+  }
+}

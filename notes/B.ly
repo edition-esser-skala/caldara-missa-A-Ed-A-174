@@ -1218,3 +1218,120 @@ BenedictusBassoLyrics = \lyricmode {
   ne Do -- mi --
   ni. %122 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr c2\fE^\tuttiE c4
+    g'2 c,4 c'
+    a2 b4 g
+    a d, a2
+    d4 g2 g4 %5
+    a f g2
+    c, r
+    R1*10 %17
+    r2 r4 \mvTr c8\fE^\tuttiE c
+    g'2 c,
+    r4 e e2 %20
+    a4 a, d g! \noBreak
+    d2 g,\fermata \bar "||"
+    \tempoDona \newSpacingSection
+      \mvTr g'8.\fE^\tutti g16 g8 g c,[ d e f] \noBreak
+    g4. e8 a4. f8
+    d16[ e f d] g8[ f] e[ d] c4 %25
+    r g' fis8[ d] g4~
+    g8[ e] a4. fis8 d16[ e fis d]
+    g4. f8 e[ d] c4
+    r8 c e[ c] f4. d8
+    g8.[ f16] e8[ d] c[ d e fis] %30
+    g2 r
+    R1
+    g8. g16 g8 g c,[ d e f]
+    g4. e8 a4. f8
+    d16[ e f d] g8[ f] e[ d] c[ d16 e] %35
+    f4 r8 f e[ c] f4~
+    f8[ d] g4. e8 c16[ d e c]
+    f8[ e d c] h!16[ d e f] g8[ f]
+    e[ d] c4 r8 g' e[ c8]
+    f4. d8 h[ a] g16[ a h g] %40
+    c8[ h a dis] e2
+    f4 r8 f e[ gis] a4~
+    a8[ f] d16[ e f d] g4 r
+    R1
+    r2 a8. a16 a8 a %45
+    e[ fis g a] h4. g8
+    c4. a8 fis16[ d! e fis] g8[ fis16 e]
+    d2 g,4 r8 g'
+    fis[ d] g4. e8 a4~
+    a8[ fis] d16[ e fis d] g4. f8 %50
+    e[ d] c4 r8 g' e[ c]
+    f4. d8 g[ f e d]
+    c4. b8 a[ g] f4
+    r f'4. d8 g4~
+    g8[ e] c16[ d e c] f8[ e] d16[ e f d] %55
+    g8[ f] e16[ f g e] a8[ g] f16[ g a f]
+    b8[ a] g16[ a h g] c4 r
+    g8. g16 g8 g c,[ d e f]
+    g4. e8 a4. f8
+    d16[ e f d] g8[ f] e[ d] c16[ d e f] %60
+    g8[ c,] g4 c8 c' g4
+    c, r r2\fermata \bar "|." %62 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta mun --
+  di: Mi -- se -- %5
+  re -- re no --
+  bis.
+
+  A -- gnus %18
+  De -- i,
+  qui tol -- %20
+  lis pec -- ca -- ta
+  mun -- di:
+  Do -- na no -- bis pa --
+  _ _ _ _
+  _ _ _ cem, %25
+  da pa -- _
+  _ _ _
+  _ _ _ cem,
+  da pa -- _ _
+  _ _ _ %30
+  cem,
+
+  do -- na no -- bis pa --
+  _ _ _ _
+  _ _ _ _ %35
+  cem, da pa -- _
+  _ _ _
+  _ _ _
+  _ cem, da pa --
+  _ _ _ _ %40
+  _ _
+  cem, da pa -- _
+  _ cem,
+
+  do -- na no -- bis %45
+  pa -- _ _
+  _ _ _ _
+  _ cem, da
+  pa -- _ _ _
+  _ _ _ %50
+  _ cem, da pa --
+  _ _ _
+  _ _ _ cem,
+  pa -- _ _
+  _ _ _ %55
+  _ _ _ _
+  _ _ cem,
+  do -- na no -- bis pa --
+  _ _ _ _
+  _ _ _ _ %60
+  _ _ cem, da pa --
+  cem. %62 finis
+}

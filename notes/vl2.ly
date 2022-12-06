@@ -762,3 +762,69 @@ SanctusViolinoII = {
     e\breve*1/2\fermata \bar "||" %65 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    r4 c'2\fE c4
+    c h c e~
+    e8 e e4 d b
+    e, f e2
+    f4 d'2 d4 %5
+    c f8 e d2
+    e es\p
+    es es
+    c4 as g2
+    g c4 b %10
+    as-\critnote g es2
+    f4 es2 d4
+    es2 b'
+    as? g
+    c as %15
+    f4 g8 as b2
+    h c4 as
+    g2 g4 c8\fE c
+    c4 h c2
+    r4-\critnote gis gis2-\critnote %20
+    e4 e fis g~ \noBreak
+    g fis g2\fermata \bar "||"
+    \tempoDona \newSpacingSection
+      R1*5 %27
+    g8.\fE g16 g8 g c, d e f
+    g4. e8 a4. f8
+    d16 e f d g8 f e d c4 %30
+    r g' fis8 d g4~
+    g8 e a4. fis8 d16 e fis d
+    g4. f8 e d c4
+    r8 d e g c,4 f8 a
+    f e d4 e8 f g f16 g %35
+    a8 g f e16 d c4 r
+    R1
+    r2 g'8. g16 g8 g
+    c, d e f g4. e8
+    a4. f8 d16 e f d g8 f %40
+    e fis16 gis a4 gis8 a4 gis8
+    a4 r8 a gis e r e
+    a4 f16 g a f d4 e16 fis gis e
+    a8 g f e d4. e16 f
+    g8 f e fis16 gis a4 e8 fis %45
+    g a h a16 g fis4 g~
+    g e8 a~ a16 fis g a d,8 e
+    a, h a4 h2
+    R1
+    r2 g'8. g16 g8 g %50
+    c, d e f g4. e8
+    a4. f8 d16 e f d g8 f
+    e d c d16 e f4 f
+    e8 c f4 a8 f d4~
+    d8 g e16 f g e c4 f8 e %55
+    d4 g8 f e4 a8 g
+    f4 g~ g8 f e d16 c
+    d8 e f e16 d e8 f g f16 e
+    d4 e2 f4~
+    f g4. f8 e16 f g a %60
+    d,8 g g4~ g8 e d4
+    e r r2\fermata \bar "|." %62 finis
+  }
+}
