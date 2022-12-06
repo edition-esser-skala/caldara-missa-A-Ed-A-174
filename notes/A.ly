@@ -1222,8 +1222,7 @@ AgnusAlto = {
     r4 gis gis2 %20
     e4 e fis g \noBreak
     g( fis) g2\fermata \bar "||"
-    \tempoDona \newSpacingSection
-      R1*5 %27
+    \tempoDona R1*5 %27
     \mvTr g8.\fE^\tuttiE g16 g8 g c,[ d e f]
     g4. e8 a4. f8
     d16[ e f d] g8[ f] e[ d] c4 %30

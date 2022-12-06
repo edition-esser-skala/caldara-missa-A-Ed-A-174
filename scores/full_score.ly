@@ -528,7 +528,7 @@
     \subsection "Et incarnatus est"
     \addTocEntry
     \paper {
-    top-system-spacing.basic-distance = #10
+      top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
       top-markup-spacing.basic-distance = #0
       top-markup-spacing.minimum-distance = #0
@@ -781,7 +781,7 @@
           \new Staff {
             \BenedictusViolinoIeII
           }
-      >>
+        >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "T"

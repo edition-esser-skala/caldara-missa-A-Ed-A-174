@@ -1878,7 +1878,7 @@ AgnusOrgano = {
     r4 e^\critnote e2 %20
     a4 a, d g! \noBreak
     d2 g,\fermata \bar "||"
-    \tempoDona \newSpacingSection
+    \tempoDona
       \mvTr g'8.\fE-\tutti-! g16-! g8-! g-! c,-! d-! e-! f-! \noBreak
     g4.-! e8-! a4.-! f8-!
     d16-! e-! f-! d-! g8-! f-! << {

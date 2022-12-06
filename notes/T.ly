@@ -1176,8 +1176,7 @@ AgnusTenore = {
     r4 e e2 %20
     e4 e a,^\critnote h8([ c)] \noBreak
     d2 d\fermata \bar "||"
-    \tempoDona \newSpacingSection
-      R1*2
+    \tempoDona R1*2
     r2 \mvTr c8.\fE^\tuttiE c16 c8 c %25
     g[ a h c] d4. h8
     e4. c8 a16[ h c a] d8[ c]

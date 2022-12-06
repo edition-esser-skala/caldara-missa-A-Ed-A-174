@@ -13,6 +13,19 @@ markOsannaDaCapo = {
   \mark \markup \remark "Osanna da capo"
 }
 
+tacet = #(define-scheme-function
+  (parser location title)
+  (string?)
+  (markup
+    #:vspace 10
+    #:fontsize 3
+    #:fill-line (
+      ""
+      #:center-column (title #:italic "tacet" )
+      ""
+    )
+  ))
+
 
 tempoKyrie = \tempoMarkup "Allegro"
   tempoKyrieB = \tempoMarkup "Adagio"

@@ -1,19 +1,19 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2\cm page-count = #3 }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Violino II"
+          \KyrieViolinoII
         }
       >>
     }
@@ -21,19 +21,20 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaViolinoII }
       >>
     }
   }
   \bookpart {
     \subsection "Laudamus te"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \LaudamusOrgano }
+        \new Staff { \LaudamusViolinoII }
       >>
     }
   }
@@ -43,35 +44,36 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \GratiasOrgano }
+        \new Staff { \GratiasViolinoII }
       >>
     }
   }
   \bookpart {
     \subsection "Domine Deus"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \DomineOrgano }
+        \new Staff { \DomineViolinoIeII }
       >>
     }
   }
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
+        \new Staff { \QuiTollisViolinoII }
       >>
     }
   }
   \bookpart {
     \subsection "Quoniam"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamViolinoII }
       >>
     }
   }
@@ -80,16 +82,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CumSanctoOrgano }
+        \new Staff { \CumSanctoViolinoII }
       >>
     }
   }
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \CredoOrgano }
+        \new Staff { \CredoViolinoII }
       >>
     }
   }
@@ -99,7 +102,7 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \EtIncarnatusOrgano }
+        \new Staff { \EtIncarnatusViolinoII }
       >>
     }
   }
@@ -109,7 +112,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \CrucifixusOrgano }
+        \new Staff { \CrucifixusViolinoII }
       >>
     }
   }
@@ -118,7 +121,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitOrgano }
+        \new Staff { \EtResurrexitViolinoII }
       >>
     }
   }
@@ -127,7 +130,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusViolinoII }
       >>
     }
   }
@@ -136,7 +139,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \BenedictusViolinoIeII }
       >>
     }
   }
@@ -145,7 +148,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }

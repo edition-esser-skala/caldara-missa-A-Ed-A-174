@@ -306,8 +306,7 @@ AgnusTimpani = {
     g4. g8 c4 r
     R1*2 \noBreak %21
     R1\fermata \bar "||"
-    \tempoDona \newSpacingSection
-      R1*10
+    \tempoDona R1*10
     r8 g\fE g g c4 c8 c
     g4 r r2
     r8 g g g c4 r
@@ -322,7 +321,7 @@ AgnusTimpani = {
     c r g4. g8
     c4 r r2
     R1*3
-    r4 r8 g c c c c16 c 
+    r4 r8 g c c c c16 c
     g4 r8 g c4 r
     R1
     r4 g8 g c c16 c c8 c

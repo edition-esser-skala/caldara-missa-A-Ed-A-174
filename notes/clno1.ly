@@ -344,8 +344,7 @@ AgnusClarinoI = {
     d2 c
     R1*2 \noBreak %21
     R1\fermata \bar "||"
-    \tempoDona \newSpacingSection
-      R1*10 %32
+    \tempoDona R1*10 %32
     r8 d\fE d d e f g f16 e
     d4 r r2
     r8 d d d e4 r %35

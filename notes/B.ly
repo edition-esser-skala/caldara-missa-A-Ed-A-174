@@ -1236,8 +1236,7 @@ AgnusBasso = {
     r4 e e2 %20
     a4 a, d g! \noBreak
     d2 g,\fermata \bar "||"
-    \tempoDona \newSpacingSection
-      \mvTr g'8.\fE^\tutti g16 g8 g c,[ d e f] \noBreak
+    \tempoDona \mvTr g'8.\fE^\tutti g16 g8 g c,[ d e f] \noBreak
     g4. e8 a4. f8
     d16[ e f d] g8[ f] e[ d] c4 %25
     r g' fis8[ d] g4~

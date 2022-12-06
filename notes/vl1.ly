@@ -904,7 +904,7 @@ AgnusViolinoI = {
     r4-\critnote h h2 %20
     c4. c8 c4 h \noBreak
     a2 g\fermata \bar "||"
-    \tempoDona \newSpacingSection R1*7 %29
+    \tempoDona R1*7 %29
     r2 c8.\fE c16 c8 c %30
     g a h c d4. h8
     e4. c8 a16 h c a d8 c
